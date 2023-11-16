@@ -1,8 +1,12 @@
+ENDSCREEN:
+    CALL CLEARSCR
+;--------------------------------------------------
 ;Imprime el GAME OVER
-    LD A,1+$80 ; Se da formato de color al texto
+    LD A,2+$80 ; Se da formato de color al texto
     LD B,10    ; Coordenada de la fila
-    LD C,10     ; Coordenada de la columna
+    LD C,12     ; Coordenada de la columna
     LD IX, GameOverText   ; Se añade el título
+    CALL PRINTAT
     RET
 
 

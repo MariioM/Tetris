@@ -1,8 +1,9 @@
-    DEVICE ZXSPECTRUM48 ;Especificación para el emulador
-    ORG $8000 ;Programa empieza en $8000
-    LD SP, 0 ;Carga del stack en 0
-;-----------------------------------------------------------------------
-start:
+
+STARTSCREEN: 
+    CALL CLEARSCR
+    CALL startInit
+;-----------------------------------------------
+startInit:
 ;Imprimir título
     LD A,3+$80 ; Se da formato de color al texto
     LD B,3     ; Coordenada de la fila
@@ -36,13 +37,13 @@ Coor_Atrib:
     SLA A : SLA A : SLA A : SLA A : SLA a
     OR c  ; Y C son los bits 0-4 de L
     LD L,A
-    LD BC, $5800 
+    LD BC, $5800
     ADD HL,BC ; Se le suma la dirección de memoria del comienzo de los atributos
     POP AF ; Se devuelve el registro AF del stack
     RET
 
 ;Rutina que guarda lo que pulsa el usuario
-TecladoInicio:                ; Rutina para leer del teclado 'S' o 'N'
+TecladoInicio:          ; Rutina para leer del teclado 'S' o 'N'
     LD BC,$7FFE         ; Escanear línea B,N,M,SYMB,Space
     IN A,(C)
     BIT 3,A
@@ -53,14 +54,11 @@ TecladoInicio:                ; Rutina para leer del teclado 'S' o 'N'
     JR NZ,TecladoInicio       ; No han pulsado 'S'
 
 T_S:    
-    LD A,'S'            ; Guardo 'S' en la Variable Caracter
-    LD (Caracter),A
     JR Soltar_Tecla     ; Esperar q que suelten la tecla
-    JR Pantalla_Final
+    RET
 
 T_N:
-    LD A,'N'            ; Guardo 'N' en la variable Caracter 
-    LD (Caracter),A 
+    RET
 
 Soltar_Tecla:           ; Rutina de espera hasta que se suelta la tecla
     IN A,(C)            ; Leer del puerto que se ha definido en Lee_Tecla
@@ -68,17 +66,10 @@ Soltar_Tecla:           ; Rutina de espera hasta que se suelta la tecla
     JR NZ,Soltar_Tecla  ; esperar hasta que no haya tecla pulsada
     RET
 
-Pantalla_Final:
-    CALL pantalla-final; Se llama a la pantalla final
-    CALL PRINTAT
-
-fin: JR fin
 
 ; Carga de ficheros y "variables"
 StartTitle: db "WELCOME TO TETRIS", 0 ;Título del tetris
 StartQuestion: db "Iniciar una partida? (S/N)", 0 ;Pregunta Inicio
 Respuesta: db "Has contestado: ",0  ; Mensaje con la respuesta
-Caracter:   db 0,0  ; Mensaje del carácter para imprimir
-    INCLUDE printat.asm ;Se "importa" la rutina printat
-    INCLUDE pantalla-final.asm 
+
 
