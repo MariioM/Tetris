@@ -1,7 +1,7 @@
 
-STARTSCREEN: 
-    CALL CLEARSCR
-    CALL startInit
+STARTSCREEN:                                   ;
+    CALL CLEARSCR                              ;
+    CALL startInit                             ;
 ;-----------------------------------------------
 startInit:
 ;Imprimir título
