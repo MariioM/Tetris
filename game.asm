@@ -2,4 +2,4 @@ MAINGAME:
     CALL CLEARSCR
 ;--------------------------------
 
-TETRIS-WIDTH EQU 8
+TETRIS-WIDTH EQU 11
