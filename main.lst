@@ -1,0 +1,369 @@
+# file opened: C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm
+  1   0000                  DEVICE ZXSPECTRUM48 ;Especificación para el emulador           ;
+  2   0000                  ORG $8000 ;Programa empieza en $8000                           ;
+  3   8000 31 00 00         LD SP, 0 ;Carga del stack en 0                                 ;
+  4   8003              ;-------------------------------------------------------------------
+  5   8003              gameStart:
+  6   8003 CD 80 80         CALL STARTSCREEN
+  7   8006              gameInit:
+  8   8006 CD 3F 80         CALL MAINGAME
+  9   8009              gameEnd:
+ 10   8009 CD 0E 80         CALL ENDSCREEN
+ 11   800C
+ 12   800C 18 FE        mainEnd: JR mainEnd
+ 13   800E              ;-------------------------------------------------------------------
+ 14   800E                  INCLUDE pantalla-final.asm
+# file opened: C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm
+  1+  800E              ENDSCREEN:
+  2+  800E CD 94 81         CALL CLEARSCR
+  3+  8011              ;--------------------------------------------------
+  4+  8011              ;Imprime el GAME OVER
+  5+  8011 3E 82            LD A,2+$80 ; Se da formato de color al texto
+  6+  8013 06 0A            LD B,10    ; Coordenada de la fila
+  7+  8015 0E 0C            LD C,12     ; Coordenada de la columna
+  8+  8017 DD 21 1F 80      LD IX, GameOverText   ; Se añade el título
+  9+  801B CD 23 81         CALL PRINTAT
+ 10+  801E C9               RET
+ 11+  801F
+ 12+  801F
+ 13+  801F
+ 14+  801F
+ 15+  801F              ;---------------------------------------------------------
+ 16+  801F 47 41 4D 45  GameOverText: db "GAME OVER", 0 ; Texto de fin de partida
+ 16+  8023 20 4F 56 45
+ 16+  8027 52 00
+ 17+  8029 44 65 73 65  ContinueText: db "Desea jugar de nuevo?", 0 ; Pregunta continue
+ 17+  802D 61 20 6A 75
+ 17+  8031 67 61 72 20
+ 17+  8035 64 65 20 6E
+ 17+  8039 75 65 76 6F
+ 17+  803D 3F 00
+# file closed: C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm
+ 15   803F                  INCLUDE game.asm
+# file opened: C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm
+  1+  803F              MAINGAME:
+  2+  803F CD 94 81         CALL CLEARSCR
+  3+  8042              ANCHO EQU 11
+  4+  8042              LARGO EQU 15
+  5+  8042              ;--------------------------------
+  6+  8042 3E 20            LD A, 32
+  7+  8044 D6 02            SUB 2
+  8+  8046 D6 0B            SUB ANCHO
+  9+  8048 CB 3F            SRL A
+ 10+  804A 4F               LD C, A
+ 11+  804B 3E 00            LD A, 0
+ 12+  804D C6 A0            ADD (32 * 5)
+ 13+  804F 81               ADD C
+ 14+  8050 21 00 58         LD HL, $5800
+ 15+  8053 06 0F            LD B, LARGO
+ 16+  8055              bucle:
+ 17+  8055 C5               PUSH BC
+ 18+  8056 47               LD B, A
+ 19+  8057              marco_izq:
+ 20+  8057 23               INC HL
+ 21+  8058 10 FD            DJNZ marco_izq
+ 22+  805A C5               PUSH BC
+ 23+  805B              margenizq:
+ 24+  805B 23               INC HL
+ 25+  805C 0E 01            LD C,1
+ 26+  805E 79               LD A, C
+ 27+  805F 87               ADD A
+ 28+  8060 87               ADD A
+ 29+  8061 87               ADD A
+ 30+  8062 77               ld (hl), a  					; Transfer the color to the video memory position
+ 31+  8063
+ 32+  8063 3E 00            LD A, 0
+ 33+  8065 06 0B            LD B, ANCHO
+ 34+  8067 80               ADD B
+ 35+  8068 47               LD B, A
+ 36+  8069              comienzo_ancho:
+ 37+  8069 23               INC HL
+ 38+  806A 10 FD            DJNZ comienzo_ancho
+ 39+  806C 18 00            JR margendrcho
+ 40+  806E              margendrcho:
+ 41+  806E 23               INC HL
+ 42+  806F 0E 01            LD C,1
+ 43+  8071 79               LD A, C
+ 44+  8072 87               ADD A
+ 45+  8073 87               ADD A
+ 46+  8074 87               ADD A
+ 47+  8075 77               ld (hl), a
+ 48+  8076
+ 49+  8076 C1               POP BC
+ 50+  8077 41               LD B, C
+ 51+  8078              marco_drcho
+ 52+  8078 23               INC HL
+ 53+  8079 10 FD            DJNZ marco_drcho
+ 54+  807B C1               POP BC
+ 55+  807C 10 D7            DJNZ bucle
+ 56+  807E
+ 57+  807E 18 FE        fin: JR fin
+ 58+  8080
+# file closed: C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm
+ 16   8080                  INCLUDE pantalla-inicio.asm
+# file opened: C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm
+  1+  8080
+  2+  8080              STARTSCREEN:                                   ;
+  3+  8080 CD 94 81         CALL CLEARSCR                              ;
+  4+  8083 CD 86 80         CALL startInit                             ;
+  5+  8086              ;-----------------------------------------------
+  6+  8086              startInit:
+  7+  8086              ;Imprimir título
+  8+  8086 3E 83            LD A,3+$80 ; Se da formato de color al texto
+  9+  8088 06 03            LD B,3     ; Coordenada de la fila
+ 10+  808A 0E 08            LD C,8     ; Coordenada de la columna
+ 11+  808C DD 21 E5 80      LD IX,StartTitle    ; Se añade el título
+ 12+  8090 CD 23 81         CALL PRINTAT    ; Se llama a la rutina que imprime el título
+ 13+  8093
+ 14+  8093              ;Imprimir pregunta
+ 15+  8093
+ 16+  8093 3E 04            LD A,4  ; Se da formato de color al texto
+ 17+  8095 06 0E            LD B,14 ; Coordenada de la fila
+ 18+  8097 0E 02            LD C,2  ; Coordenada de la columna
+ 19+  8099 DD 21 F7 80      LD IX,StartQuestion ; Se añade la pregunta
+ 20+  809D CD 23 81         CALL PRINTAT ; Se llama a la rutina para imprimir la pregunta
+ 21+  80A0
+ 22+  80A0 06 0E            LD B,14 ; Se pone el cursor en las coordenadas 14(fila)
+ 23+  80A2 0E 1C            LD C,28 ; y 28(Columna)
+ 24+  80A4 CD AD 80         CALL Coor_Atrib ; Llamamos a la rutina encargada de devolver la dirección del atributo
+ 25+  80A7 3E 84            LD A,4+$80  ; Se le da el formato
+ 26+  80A9 77               LD (HL),A   ; Se imprime el cursor
+ 27+  80AA
+ 28+  80AA CD C8 80         CALL TecladoInicio    ; Se lee el input del teclado hasta que se pulse S o N
+ 29+  80AD
+ 30+  80AD
+ 31+  80AD              ;Función para guardar coordenadas
+ 32+  80AD              Coor_Atrib:
+ 33+  80AD F5               PUSH AF ; Se guarda el registro AF en el stack
+ 34+  80AE 60               LD H,b  ; Los bits 4,5 de B deben ser los bits 0,1 de H
+ 35+  80AF CB 3C            SRL H
+ 35+  80B1 CB 3C          SRL H
+ 35+  80B3 CB 3C          SRL H
+ 36+  80B5 78               LD A,B  ; Los bits 0,1,2 de B deben ser los bits 5,6,7 de L
+ 37+  80B6 CB 27            SLA A
+ 37+  80B8 CB 27          SLA A
+ 37+  80BA CB 27          SLA A
+ 37+  80BC CB 27          SLA A
+ 37+  80BE CB 27          SLA a
+ 38+  80C0 B1               OR c  ; Y C son los bits 0-4 de L
+ 39+  80C1 6F               LD L,A
+ 40+  80C2 01 00 58         LD BC, $5800
+ 41+  80C5 09               ADD HL,BC ; Se le suma la dirección de memoria del comienzo de los atributos
+ 42+  80C6 F1               POP AF ; Se devuelve el registro AF del stack
+ 43+  80C7 C9               RET
+ 44+  80C8
+ 45+  80C8              ;Rutina que guarda lo que pulsa el usuario
+ 46+  80C8              TecladoInicio:          ; Rutina para leer del teclado 'S' o 'N'
+ 47+  80C8 01 FE 7F         LD BC,$7FFE         ; Escanear línea B,N,M,SYMB,Space
+ 48+  80CB ED 78            IN A,(C)
+ 49+  80CD CB 5F            BIT 3,A
+ 50+  80CF 28 0C            JR Z,T_N            ; Han pulsado N
+ 51+  80D1 01 FE FD         LD BC,$FDFE         ; Escanear línea G,F,D,S,A
+ 52+  80D4 ED 78            IN A,(C)
+ 53+  80D6 CB 4F            BIT 1,A
+ 54+  80D8 20 EE            JR NZ,TecladoInicio       ; No han pulsado 'S'
+ 55+  80DA
+ 56+  80DA              T_S:
+ 57+  80DA 18 02            JR Soltar_Tecla     ; Esperar q que suelten la tecla
+ 58+  80DC C9               RET
+ 59+  80DD
+ 60+  80DD              T_N:
+ 61+  80DD C9               RET
+ 62+  80DE
+ 63+  80DE              Soltar_Tecla:           ; Rutina de espera hasta que se suelta la tecla
+ 64+  80DE ED 78            IN A,(C)            ; Leer del puerto que se ha definido en Lee_Tecla
+ 65+  80E0 FE FF            CP $FF              ; Comprobar que no hay tecla pulsada
+ 66+  80E2 20 FA            JR NZ,Soltar_Tecla  ; esperar hasta que no haya tecla pulsada
+ 67+  80E4 C9               RET
+ 68+  80E5
+ 69+  80E5
+ 70+  80E5              ; Carga de ficheros y "variables"
+ 71+  80E5 57 45 4C 43  StartTitle: db "WELCOME TO TETRIS", 0 ;Título del tetris
+ 71+  80E9 4F 4D 45 20
+ 71+  80ED 54 4F 20 54
+ 71+  80F1 45 54 52 49
+ 71+  80F5 53 00
+ 72+  80F7 49 6E 69 63  StartQuestion: db "Iniciar una partida? (S/N)", 0 ;Pregunta Inicio
+ 72+  80FB 69 61 72 20
+ 72+  80FF 75 6E 61 20
+ 72+  8103 70 61 72 74
+ 72+  8107 69 64 61 3F
+ 72+  810B 20 28 53 2F
+ 72+  810F 4E 29 00
+ 73+  8112 48 61 73 20  Respuesta: db "Has contestado: ",0  ; Mensaje con la respuesta
+ 73+  8116 63 6F 6E 74
+ 73+  811A 65 73 74 61
+ 73+  811E 64 6F 3A 20
+ 73+  8122 00
+ 74+  8123
+ 75+  8123
+# file closed: C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm
+ 17   8123                  INCLUDE printat.asm ;Se "importa" la rutina printat
+# file opened: C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm
+  1+  8123              ; -------------------------------
+  2+  8123              ; ZX Spectrum Text print library
+  3+  8123              ; Daniel León - AOC - UFV 2020
+  4+  8123              ; -------------------------------
+  5+  8123
+  6+  8123
+  7+  8123              ; ----------------------------------------------------------------------------------------
+  8+  8123              ; PRINTAT - Print a string in a position and attributes as per registers:
+  9+  8123              ;		IN	A	: Bit 7=1 For Flash / Bit 6=1 For Brigh / Bit 5,4,3 for Paper / Bit 2,1,0 for Ink
+ 10+  8123              ;		IN	B	: Row 0..23
+ 11+  8123              ;		IN	C	: Column 0..31
+ 12+  8123              ;		IN	IX	: Address of text (Text must end in a 0)
+ 13+  8123              ; ----------------------------------------------------------------------------------------
+ 14+  8123 CD 32 81     PRINTAT:	CALL PREP_PRT				; Update Attribute var &Screen & Attributes pointers
+ 15+  8126              ; ----------------------------------------------------------------------------------------
+ 16+  8126              ;		VVV Do not move PRINTSTR below as PRINTAT continues into PRINTSTR routine
+ 17+  8126              ; ----------------------------------------------------------------------------------------
+ 18+  8126              ; PRINTSTR - Prints String - IX Points to the String start
+ 19+  8126              ; ----------------------------------------------------------------------------------------
+ 20+  8126 DD 7E 00     PRINTSTR:   LD A,(IX)					; A Contains first char to print
+ 21+  8129 B7           			OR A						; check for end of string (0)
+ 22+  812A C8           			RET Z						; Finish printing if 0
+ 23+  812B CD 60 81     			CALL PRINTCHNUM
+ 24+  812E DD 23        			INC IX						; Move to next char in string
+ 25+  8130 18 F4        			JR PRINTSTR					; Start over printing sequence
+ 26+  8132              ; ----------------------------------------------------------------------------------------
+ 27+  8132
+ 28+  8132
+ 29+  8132              ;-----------------------------------------------------------------------------------------
+ 30+  8132              ; PREP_PRT - Updates Print_Attr, SCR & ATTR Vars
+ 31+  8132              ;-----------------------------------------------------------------------------------------
+ 32+  8132 32 A6 81     PREP_PRT:	LD (PRINT_ATTR),A			; Set Attribute
+ 33+  8135 CD 3B 81     PREP_PRT_2:	CALL CRtoSCREEN
+ 34+  8138 C3 4D 81     			JP CRtoATTR
+ 35+  813B              ;-----------------------------------------------------------------------------------------
+ 36+  813B
+ 37+  813B              ;-----------------------------------------------------------------------------------------
+ 38+  813B              ; CRtoSCREEN - Converts a scr char coord into a SCREEN Address   b,c = y,x positions
+ 39+  813B              ;	IN  - B=Row, C=Column
+ 40+  813B              ;	OUT - HL=Address in screen also stored in (SCR_CUR_PTR)
+ 41+  813B              ;	Conversion:
+ 42+  813B              ;			Row FFfff   Column CCCCC
+ 43+  813B              ;			HL=%010FF000 fffCCCCC
+ 44+  813B              ;-----------------------------------------------------------------------------------------
+ 45+  813B              CRtoSCREEN:
+ 46+  813B 78           			LD A,B						; %___FFfff
+ 47+  813C F6 40        			OR #40						; %010FFfff
+ 48+  813E E6 F8        			AND #F8						; %010FF000
+ 49+  8140 67           			LD H,A
+ 50+  8141
+ 51+  8141 78           			LD A,B						; %___FFfff
+ 52+  8142 E6 07        			AND #7						; %00000fff
+ 53+  8144 0F           			RRCA						; %f00000ff
+ 54+  8145 0F           			RRCA						; %ff00000f
+ 55+  8146 0F           			RRCA						; %fff00000
+ 56+  8147 B1           			OR C						; %fffCCCCC
+ 57+  8148 6F           			LD L,A
+ 58+  8149 22 A2 81                 LD (SCR_CUR_PTR),HL			; Update Variable
+ 59+  814C C9                       RET
+ 60+  814D              ; ----------------------------------------------------------------------------------------
+ 61+  814D
+ 62+  814D
+ 63+  814D
+ 64+  814D              ;-----------------------------------------------------------------------------------------
+ 65+  814D              ; CRtoATTR - Converts a screen char coord  into a ATTR Address  b,c = y,x positions
+ 66+  814D              ;	IN  - B=Row, C=Column
+ 67+  814D              ;	OUT - HL=Address in screen also stored in (SCR_ATTR_PTR)
+ 68+  814D              ;	Conversion:
+ 69+  814D              ;			Row FFfff   Column CCCCC
+ 70+  814D              ;			HL=%010110FF fffCCCCC
+ 71+  814D              ;-----------------------------------------------------------------------------------------
+ 72+  814D              CRtoATTR:
+ 73+  814D 78           			LD A,B						; %___FFfff
+ 74+  814E 0F           			RRCA						; %f000FFff
+ 75+  814F 0F           			RRCA						; %ff000FFf
+ 76+  8150 0F           			RRCA						; %fff000FF
+ 77+  8151 6F           			LD L,A
+ 78+  8152 E6 03        			AND 3						; %000000FF	value of FF can be only 00,01,10
+ 79+  8154 F6 58        			OR #58						; %010110FF value will be #58, #59 or #5A
+ 80+  8156 67           			LD H,A
+ 81+  8157
+ 82+  8157 7D           			LD A,L						; %fff000FF
+ 83+  8158 E6 E0        			AND #E0						; %fff00000
+ 84+  815A B1           			OR C						; %fffCCCCC
+ 85+  815B 6F           			LD L,A
+ 86+  815C
+ 87+  815C 22 A4 81                 LD (SCR_ATTR_PTR),HL		; Update Variable
+ 88+  815F C9                       RET
+ 89+  8160              ; ----------------------------------------------------------------------------------------
+ 90+  8160
+ 91+  8160
+ 92+  8160
+ 93+  8160              ; ----------------------------------------------------------------------------------------
+ 94+  8160              ; PRINTCHNUM - Prints Char Number N (stored in A)
+ 95+  8160              ;-----------------------------------------------------------------------------------------
+ 96+  8160              PRINTCHNUM:	;SUB 32						; Adjust Ascii to charset
+ 97+  8160 26 00        			LD H,0						; Multiply value by 8 to get to right Char in Charset
+ 98+  8162 6F           			LD L,A
+ 99+  8163 29           			ADD HL,HL
+100+  8164 29           			ADD HL,HL
+101+  8165 29           			ADD HL,HL
+102+  8166 11 A7 80     			LD DE, CHARSET-(8*32)		; Optimize in compile time (instead of sub 32)
+103+  8169 19           			ADD HL,DE
+104+  816A EB           			EX  DE,HL					;Value in DE
+105+  816B              			; Continues to printchar below
+106+  816B              ; ----------------------------------------------------------------------------------------
+107+  816B
+108+  816B
+109+  816B              ; ----------------------------------------------------------------------------------------
+110+  816B              ; PRINTCHAR - Prints Char  (DE points to the char. Uses HL as last Cur Pointer)
+111+  816B              ; ----------------------------------------------------------------------------------------
+112+  816B              PRINTCHAR:
+113+  816B 06 08        			LD B,8						; 8 Lines per char
+114+  816D 2A A2 81                 LD HL, (SCR_CUR_PTR)		; Load Cursor Pointer y,x
+115+  8170
+116+  8170 1A           BYTEPCHAR:	LD A,(DE)					; Get Char to be printed, first line
+117+  8171 77           			LD (HL),A					; Move to Printing location
+118+  8172 24                       INC H						; inc H so next line in char (ZX Spectrum Screen RAM)
+119+  8173 13                       INC DE 						; next line to be printed
+120+  8174 10 FA                    DJNZ BYTEPCHAR				; Repeat 8 lines
+121+  8176 3A A6 81                 LD A,(PRINT_ATTR) 			; Load Attributes to print char with
+122+  8179 2A A4 81                 LD HL, (SCR_ATTR_PTR)
+123+  817C 77                       LD (HL),A
+124+  817D 21 A4 81                 LD HL, SCR_ATTR_PTR			; Get pointer to ATTR
+125+  8180 34                       INC (HL)					; Move Attribute cursor to next char
+126+  8181 21 A2 81     			LD HL, SCR_CUR_PTR
+127+  8184 34           			INC (HL)					; update Cursor pointer to next position
+128+  8185 C9                       RET
+129+  8186              ; ----------------------------------------------------------------------------------------
+130+  8186
+131+  8186
+132+  8186
+133+  8186              ; ----------------------------------------------------------------------------------------
+134+  8186              ; INK2PAPER - moves ink of attribute stored in (PRINT_ATTR) to paper and sets ink to 0
+135+  8186              ; 				Sets bright 1 and flash 0
+136+  8186              ; ----------------------------------------------------------------------------------------
+137+  8186 3A A6 81     INK2PAPER:	LD A, (PRINT_ATTR)		    ; Get storedAttribute
+138+  8189 E6 07                    AND 7						; get Attr INK in A
+139+  818B 07           			RLCA
+140+  818C 07           			RLCA
+141+  818D 07           			RLCA						; move Ink to Paper
+142+  818E F6 40        			OR 64						; ink 0 bright 1
+143+  8190 32 A6 81     			LD (PRINT_ATTR),A		    ; Get storedAttribute
+144+  8193 C9           			RET
+145+  8194              ; ----------------------------------------------------------------------------------------
+146+  8194
+147+  8194
+148+  8194
+149+  8194
+150+  8194 21 00 40     CLEARSCR:	LD HL,$4000					; Erases screen by writing 0 to all pixels and attributes
+151+  8197 11 01 40     			LD DE,$4001
+152+  819A 01 FF 1A     			LD BC,6911
+153+  819D 36 00        			LD (HL),0
+154+  819F ED B0        			LDIR
+155+  81A1 C9           			RET
+156+  81A2
+157+  81A2
+158+  81A2              SCR_CUR_PTR
+158+  81A2 00 00          	db $00, $00				; Cursor Pointer in Screen (2 bytes) (HL)
+159+  81A4 00 00        SCR_ATTR_PTR: 	db $00, $00				; Attr Pointer in Screen (2 bytes) (HL)
+160+  81A6 00           PRINT_ATTR:		db $00					; Attribute used by printchar routine (1 byte)
+161+  81A7
+162+  81A7              CHARSET: incbin "charset.bin"			; Charset used
+163+  84A7
+# file closed: C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm
+ 18   84A7
+# file closed: C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm

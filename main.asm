@@ -4,12 +4,15 @@
 ;-------------------------------------------------------------------
 gameStart:
     CALL STARTSCREEN
+gameInit:
+    CALL MAINGAME
 gameEnd:
     CALL ENDSCREEN
 
 mainEnd: JR mainEnd
 ;-------------------------------------------------------------------
     INCLUDE pantalla-final.asm
+    INCLUDE game.asm
     INCLUDE pantalla-inicio.asm
     INCLUDE printat.asm ;Se "importa" la rutina printat
     
