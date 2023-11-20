@@ -15,4 +15,5 @@ mainEnd: JR mainEnd
     INCLUDE game.asm
     INCLUDE pantalla-inicio.asm
     INCLUDE printat.asm ;Se "importa" la rutina printat
-    
+    INCLUDE fichas.asm
+    INCLUDE Tetris_3D.asm
