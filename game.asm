@@ -2,10 +2,10 @@ MAINGAME:                                 ;
     CALL CLEARSCR                         ;                                        ;
 ;------------------------------------------
     CALL CREATEBOARD
-    LD A, Tetro_3D
+    LD A, 3
     LD B, 3
     LD C, 10
-    LD IX, T_I1
+    LD IX, T_L2
     CALL PRINTAT
 fin: JR fin
 ;-----------------------------------------
