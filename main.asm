@@ -1,4 +1,4 @@
-    DEVICE ZXSPECTRUM48 ;Especificación para el emulador           ;
+    DEVICE ZXSPECTRUM48 ;Especificacion para el emulador           ;
     ORG $8000 ;Programa empieza en $8000                           ;
     LD SP, 0 ;Carga del stack en 0                                 ;
 ;-------------------------------------------------------------------
