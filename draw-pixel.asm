@@ -1,11 +1,10 @@
 DRAWPIXEL:
-;------------------------------------------------------
     PUSH AF
     PUSH DE
     PUSH AF
     PUSH BC
+;------------------------------------------------------
     LD A, B
-    ADD 5
     LD B, A
     LD L, B
     LD H, 0 ; HL = B
@@ -16,7 +15,7 @@ DRAWPIXEL:
     ADD HL, HL
     ADD HL, HL; HL = HL *32
     LD A, C
-    ADD 13
+    ADD 14
     LD C, A
     LD E, C
     LD D, 0 ; DE = C

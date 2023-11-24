@@ -2,7 +2,7 @@ MAINGAME:                                 ;
     CALL CLEARSCR                         ;                                        ;
 ;------------------------------------------
     CALL CREATEBOARD
-    CALL DRAW
+    CALL DRAWTETRO
 fin: JR fin
 ;-----------------------------------------
     INCLUDE create-board.asm

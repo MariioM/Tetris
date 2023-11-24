@@ -25,12 +25,12 @@ marco_izq:
     PUSH BC
 margenizq:
     INC HL
-    LD C,1
+    LD C, 7
     LD A, C
     ADD A
     ADD A
     ADD A
-    ld (hl), a  					; Transfer the color to the video memory position
+    LD (HL), A
     LD A, 0
     LD B, ANCHO
     ADD B
@@ -40,7 +40,7 @@ comienzo_ancho:
     DJNZ comienzo_ancho
 margendrcho:
     INC HL
-    LD C,1
+    LD C,7
     LD A, C
     ADD A
     ADD A
@@ -63,7 +63,7 @@ fila_ultima:
     LD B, ANCHO + 2
 bucle2:
     INC HL
-    LD C,1
+    LD C,7
     LD A, C
     ADD A
     ADD A
