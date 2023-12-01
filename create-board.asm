@@ -3,6 +3,7 @@ CREATEBOARD:                                 ;
 ANCHO EQU 14                              ;
 LARGO EQU 22                              ;
 ;------------------------------------------
+    CALL Tetris_3D
     LD A, 32
     SUB 2
     SUB ANCHO

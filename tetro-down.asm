@@ -1,22 +1,22 @@
 TETRODOWN: 
 ;-----------------------------------------
     LD IY, row_coords
-    LD B, 20
+    LD B, 22
     CALL RANDOMTETRO
-RUTINA_BAJAR:
+down:
     PUSH BC
     CALL DRAWTETRO
     CALL LASTPOSITION
     INC IY
     CP 100
-    JR Z, SE_ACABO
+    JR Z, downend
     DEC IY
     CALL TETRODEL
     INC IY
     CALL LASTPOSITION
     POP BC
-    DJNZ RUTINA_BAJAR
-SE_ACABO: 
+    DJNZ down
+downend: 
     POP BC
     RET
 ;----------------------------------------------------

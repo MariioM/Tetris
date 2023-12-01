@@ -20,4 +20,3 @@ godraw:
     RET
 ;-------------------------------
 ANCHOTETRO EQU T_L1 - T_O
-    INCLUDE draw-tetro.asm
