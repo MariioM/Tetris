@@ -2,6 +2,7 @@ TETRODOWN:
 ;-----------------------------------------
     LD IY, row_coords
     LD B, 20
+    CALL RANDOMTETRO
 RUTINA_BAJAR:
     PUSH BC
     CALL DRAWTETRO
@@ -21,3 +22,4 @@ SE_ACABO:
 ;----------------------------------------------------
     INCLUDE del-tetro.asm
     INCLUDE last-position.asm
+    INCLUDE tetro-random.asm

@@ -66,7 +66,7 @@ Soltar_Tecla:           ; Rutina de espera hasta que se suelta la tecla
     JR NZ,Soltar_Tecla  ; esperar hasta que no haya tecla pulsada
     RET
 
-
+;----------------------------------------------------------------------------
 ; Carga de ficheros y "variables"
 StartTitle: db "WELCOME TO TETRIS", 0 ;Título del tetris
 StartQuestion: db "Iniciar una partida? (S/N)", 0 ;Pregunta Inicio
