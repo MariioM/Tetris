@@ -2,7 +2,6 @@ TETRODOWN:
 ;-----------------------------------------
     LD IY, row_coords
     LD B, 22
-    CALL RANDOMTETRO
 down:
     PUSH BC
     CALL DRAWTETRO

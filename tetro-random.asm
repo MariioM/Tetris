@@ -8,15 +8,13 @@ continue:
     LD IX, T_O
     LD DE, ANCHOTETRO
     OR A
-    JR Z, godraw
+    JR Z, randomend
 more:
     ADD IX, DE
     DEC A
     JR NZ, more
 
-godraw:
-    CALL DRAWTETRO
-
+randomend:
     RET
 ;-------------------------------
 ANCHOTETRO EQU T_L1 - T_O
