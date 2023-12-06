@@ -1,12 +1,13 @@
 MAINGAME:                                 ;
-    CALL CLEARSCR                         ;                                        ;
+    CALL CLEARSCR  ;Limpia la pantalla    ;
 ;------------------------------------------
-    CALL CREATEBOARD
+    CALL CREATEBOARD ; Crea el tablero
 gameflow:
-    CALL RANDOMTETRO
-    CALL TETRODOWN
-    JR gameflow
-    RET
+    CALL RANDOMTETRO ; Geneta un tetromino aleatorio
+    CALL TETRODOWN ; Llama a la funcion que dibuja y mueve el tetromino hacia abajo
+    CP 777 ;Comprueba el gaemover
+    JR NZ, gameflow ;Si no es gameover, sigue el juego
+    RET ; Si es gameover, sale del juego
 
 fin: JR fin
 ;-----------------------------------------
@@ -15,3 +16,4 @@ fin: JR fin
     INCLUDE tetro-down.asm
     INCLUDE position-coords.asm
     INCLUDE check-colision.asm
+    

@@ -3,6 +3,9 @@ TETRODEL:
     LD A, (IX)
     LD D, A
     INC IX
+    LD A, (IXCounter)
+    INC A
+    LD (IXCounter), A
     LD A, (IX)
     LD E, A
     LD B, D
@@ -12,6 +15,9 @@ rowdel:
 columndel:
     LD D, B
     INC IX
+    LD A, (IXCounter)
+    INC A
+    LD (IXCounter), A
     LD A, 0
     POP BC
     LD C, D

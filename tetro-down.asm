@@ -2,11 +2,9 @@ TETRODOWN:
 ;-----------------------------------------
     LD IY, row_coords
     CALL CHECKCOLISION
-    CALL LASTPOSITION
     CP 100
     JR Z, goGameOver
-    LD A, 0
-    LD (IXCounter), A
+    CALL LASTPOSITION
 
 down:
     PUSH BC
@@ -18,31 +16,22 @@ down:
     CALL CHECKCOLISION
     CP 100
     JR Z, nexttetro
-    LD A, 0
-    LD (IXCounter), A
     JR NZ, downcontinue
 downcontinue:
     CALL LASTPOSITION
     POP BC
     JR down
 nexttetro:
-    LD A, (IXCounter)
-devuelvoix:
-    CP 0
-    JR Z, correct
-    DEC A
-    DEC IX
-    JR devuelvoix
-correct:
+    CALL LASTPOSITION
     POP BC
     DEC IY
-
     CALL DRAWTETRO
-    CALL devolverIX
-    CALL devuelvoIY
+    CALL LASTPOSITION
+    CALL RETURNIY
     RET
 goGameOver:
     POP BC
+    LD A, 777
     RET
 gamecontinue:
     RET
@@ -50,3 +39,4 @@ gamecontinue:
     INCLUDE del-tetro.asm
     INCLUDE last-position.asm
     INCLUDE tetro-random.asm
+    INCLUDE IYReturn.asm

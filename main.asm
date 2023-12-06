@@ -3,13 +3,13 @@
     LD SP, 0 ;Carga del stack en 0                                 ;
 ;-------------------------------------------------------------------
 gameStart:
-    CALL STARTSCREEN
+    CALL STARTSCREEN ;Se llama a la pantalla de inicio
 gameInit:
-    CALL MAINGAME
+    CALL MAINGAME ;Se llama al juego
 gameEnd:
-    CALL ENDSCREEN
+    CALL ENDSCREEN ;Se llama a la pantalla final
 
-mainEnd: JR mainEnd
+mainEnd: JR mainEnd ;Se queda en un bucle infinito
 ;-------------------------------------------------------------------
     INCLUDE pantalla-final.asm
     INCLUDE game.asm
