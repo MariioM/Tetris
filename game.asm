@@ -2,9 +2,11 @@ MAINGAME:                                 ;
     CALL CLEARSCR                         ;                                        ;
 ;------------------------------------------
     CALL CREATEBOARD
+gameflow:
     CALL RANDOMTETRO
-    CALL DRAWTETRO
     CALL TETRODOWN
+    JR gameflow
+    RET
 
 fin: JR fin
 ;-----------------------------------------
@@ -12,3 +14,4 @@ fin: JR fin
     INCLUDE draw-tetro.asm
     INCLUDE tetro-down.asm
     INCLUDE position-coords.asm
+    INCLUDE check-colision.asm
