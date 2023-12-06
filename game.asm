@@ -4,6 +4,7 @@ MAINGAME:                                 ;
     CALL CREATEBOARD ; Crea el tablero
 gameflow:
     CALL RANDOMTETRO ; Geneta un tetromino aleatorio
+    LD (Middle), 14 ; Posiciona el tetromino en el medio
     CALL TETRODOWN ; Llama a la funcion que dibuja y mueve el tetromino hacia abajo
     CP 254 ;Comprueba el gaemover
     JR NZ, gameflow ;Si no es gameover, sigue el juego
