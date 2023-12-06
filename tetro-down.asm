@@ -31,7 +31,7 @@ nexttetro:
     RET
 goGameOver:
     POP BC
-    LD A, 777
+    LD A, 254
     RET
 gamecontinue:
     RET

@@ -5,7 +5,7 @@ MAINGAME:                                 ;
 gameflow:
     CALL RANDOMTETRO ; Geneta un tetromino aleatorio
     CALL TETRODOWN ; Llama a la funcion que dibuja y mueve el tetromino hacia abajo
-    CP 777 ;Comprueba el gaemover
+    CP 254 ;Comprueba el gaemover
     JR NZ, gameflow ;Si no es gameover, sigue el juego
     RET ; Si es gameover, sale del juego
 

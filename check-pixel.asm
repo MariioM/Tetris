@@ -7,7 +7,6 @@ comprobarpunto:
     LD L, B
     LD A, (IY) 
     ADD L
-    ADD 5 ;El tope supeior empieza en la fila 5
     LD L, A 
     LD H, 0 ; HL = B
     ADD HL, HL
@@ -16,7 +15,7 @@ comprobarpunto:
     ADD HL, HL
     ADD HL, HL; HL = HL *32
     LD A, C
-    ADD 13
+    ADD 14
     LD C, A
     LD E, C
     LD D, 0 ; DE = C

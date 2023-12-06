@@ -5,6 +5,7 @@ DRAWPIXEL:
     PUSH BC
 ;------------------------------------------------------
     LD A, B
+    ADD (IY)
     LD B, A
     LD L, B
     LD H, 0 ; HL = B
