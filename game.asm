@@ -17,4 +17,5 @@ fin: JR fin
     INCLUDE position-coords.asm
     INCLUDE check-colision.asm
     INCLUDE turn-tetro.asm
+    INCLUDE tetro-move.asm
     

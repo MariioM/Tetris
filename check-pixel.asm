@@ -14,8 +14,8 @@ comprobarpunto:
     ADD HL, HL
     ADD HL, HL
     ADD HL, HL; HL = HL *32
-    LD A, C
-    ADD 14
+    LD A, (Middle)
+    ADD C
     LD C, A
     LD E, C
     LD D, 0 ; DE = C
