@@ -7,13 +7,14 @@ TETROMOVE:
     JR Z, move_left    ; Han pulsado Q -> Girar izquierda
     BIT 2,A
     JR NZ, move_right  ; Han pulsado W -> Girar derecha
+    JR no_tecla_move     ; No hay tecla pulsada
 
 move_right:
     LD A, (Middle) 
     INC A
     LD (Middle), A
     JR SoltarTeclaMv     ; Esperar q que suelten la tecla
-    JR no_tecla_move     ; No hay tecla pulsada
+   
 
 move_left:
     LD A, (Middle) 

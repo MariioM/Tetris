@@ -7,14 +7,14 @@ TURNTETRO:
     JR Z, turn_left    ; Han pulsado Q -> Girar izquierda
     BIT 1,A
     JR NZ, turn_right  ; Han pulsado W -> Girar derecha
+    JR no_tecla         ; No hay tecla pulsada
 
 turn_right:
     LD L, (IX + 10)
     LD H, (IX + 11)  
     LD IX, HL  
     JR SoltarTecla     ; Esperar q que suelten la tecla
-    JR no_tecla         ; No hay tecla pulsada
-
+    
 turn_left:
     LD L, (IX + 8)
     LD H, (IX + 9) 
