@@ -10,10 +10,11 @@ down:
     PUSH BC
     CALL DRAWTETRO
     CALL LASTPOSITION
+    CALL TETRODELAY
     CALL TETRODEL
     CALL LASTPOSITION
     CALL TETROMOVE
-    ;CALL TURNTETRO
+    CALL TURNTETRO
     INC IY
     CALL CHECKCOLISION
     CP 100
@@ -42,3 +43,4 @@ gamecontinue:
     INCLUDE last-position.asm
     INCLUDE tetro-random.asm
     INCLUDE IYReturn.asm
+    INCLUDE delay-tetro.asm

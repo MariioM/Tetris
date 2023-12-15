@@ -4,9 +4,9 @@ TETROMOVE:
     LD BC,$BFFE       ; Escanear línea  H,J,K,L,ENTER
     IN A,(C)
     BIT 3,A
-    JR Z, move_left    ; Han pulsado Q -> Girar izquierda
+    JR Z, move_left    ; Han pulsado J -> Mover izquierda
     BIT 2,A
-    JR NZ, move_right  ; Han pulsado W -> Girar derecha
+    JR Z, move_right  ; Han pulsado K -> Mover derecha
     JR no_tecla_move     ; No hay tecla pulsada
 
 move_right:
@@ -14,7 +14,7 @@ move_right:
     INC A
     LD (Middle), A
     JR SoltarTeclaMv     ; Esperar q que suelten la tecla
-   
+    RET
 
 move_left:
     LD A, (Middle) 

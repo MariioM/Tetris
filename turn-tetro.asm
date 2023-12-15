@@ -6,7 +6,7 @@ TURNTETRO:
     BIT 0,A
     JR Z, turn_left    ; Han pulsado Q -> Girar izquierda
     BIT 1,A
-    JR NZ, turn_right  ; Han pulsado W -> Girar derecha
+    JR Z, turn_right  ; Han pulsado W -> Girar derecha
     JR no_tecla         ; No hay tecla pulsada
 
 turn_right:
