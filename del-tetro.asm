@@ -18,7 +18,7 @@ columndel:
     LD A, (IXCounter)
     INC A
     LD (IXCounter), A
-    LD A, 0
+    LD A, (IX)
     POP BC
     LD C, D
     CALL DELPIXEL

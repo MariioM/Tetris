@@ -1,748 +1,797 @@
 |SLD.data.version|1
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm|1||0|-1|-1|Z|pages.size:16384,pages.count:4,slots.count:4,slots.adr:0,16384,32768,49152
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm|3||0|2|32768|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm|5||0|2|32771|F|gameStart
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm|5||0|2|32771|L|,gameStart,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm|6||0|2|32771|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm|7||0|2|32774|F|gameInit
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm|7||0|2|32774|L|,gameInit,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm|8||0|2|32774|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm|9||0|2|32777|F|gameEnd
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm|9||0|2|32777|L|,gameEnd,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm|10||0|2|32777|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm|12||0|2|32780|F|mainEnd
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm|12||0|2|32780|L|,mainEnd,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\main.asm|12||0|2|32780|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm|1||0|2|32782|F|ENDSCREEN
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm|1||0|2|32782|L|,ENDSCREEN,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm|2||0|2|32782|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm|5||0|2|32785|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm|6||0|2|32787|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm|7||0|2|32789|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm|8||0|2|32791|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm|9||0|2|32795|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm|10||0|2|32798|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm|16||0|2|32799|F|GameOverText
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm|16||0|2|32799|L|,GameOverText,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm|17||0|2|32809|F|ContinueText
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-final.asm|17||0|2|32809|L|,ContinueText,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|1||0|2|32831|F|MAINGAME
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|1||0|2|32831|L|,MAINGAME,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|2||0|2|32831|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|4||0|2|32834|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|5||0|2|32837|F|gameflow
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|5||0|2|32837|L|,gameflow,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|6||0|2|32837|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|7||0|2|32840|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|8||0|2|32842|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|9||0|2|32845|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|10||0|2|32848|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|11||0|2|32850|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|12||0|2|32852|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|14||0|2|32853|F|fin
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|14||0|2|32853|L|,fin,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\game.asm|14||0|2|32853|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|1||0|2|32855|F|CREATEBOARD
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|1||0|2|32855|L|,CREATEBOARD,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|2||0|2|32855|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|3||0|-1|14|D|ANCHO
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|3||0|-1|14|L|,ANCHO,,+equ,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|4||0|-1|22|D|LARGO
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|4||0|-1|22|L|,LARGO,,+equ,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|6||0|2|32858|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|7||0|2|32861|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|8||0|2|32863|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|9||0|2|32865|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|10||0|2|32867|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|11||0|2|32869|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|12||0|2|32870|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|13||0|2|32872|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|14||0|2|32874|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|15||0|2|32875|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|16||0|2|32878|F|bucle1
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|16||0|2|32878|L|,bucle1,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|17||0|2|32878|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|18||0|2|32879|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|19||0|2|32881|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|20||0|2|32883|F|bucle
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|20||0|2|32883|L|,bucle,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|21||0|2|32883|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|22||0|2|32884|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|23||0|2|32885|F|marco_izq
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|23||0|2|32885|L|,marco_izq,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|24||0|2|32885|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|25||0|2|32886|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|26||0|2|32888|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|27||0|2|32889|F|margenizq
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|27||0|2|32889|L|,margenizq,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|28||0|2|32889|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|29||0|2|32890|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|30||0|2|32892|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|31||0|2|32893|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|32||0|2|32894|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|33||0|2|32895|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|34||0|2|32896|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|35||0|2|32897|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|36||0|2|32899|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|37||0|2|32901|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|38||0|2|32902|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|39||0|2|32903|F|comienzo_ancho
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|39||0|2|32903|L|,comienzo_ancho,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|40||0|2|32903|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|41||0|2|32904|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|42||0|2|32906|F|margendrcho
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|42||0|2|32906|L|,margendrcho,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|43||0|2|32906|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|44||0|2|32907|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|45||0|2|32909|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|46||0|2|32910|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|47||0|2|32911|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|48||0|2|32912|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|49||0|2|32913|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|51||0|2|32914|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|52||0|2|32915|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|53||0|2|32916|F|marco_drcho
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|53||0|2|32916|L|,marco_drcho,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|54||0|2|32916|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|55||0|2|32917|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|56||0|2|32919|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|57||0|2|32920|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|59||0|2|32922|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|60||0|2|32923|F|marco_izq_fila_ult
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|60||0|2|32923|L|,marco_izq_fila_ult,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|61||0|2|32923|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|62||0|2|32924|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|63||0|2|32926|F|fila_ultima
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|63||0|2|32926|L|,fila_ultima,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|64||0|2|32926|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|65||0|2|32928|F|bucle2
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|65||0|2|32928|L|,bucle2,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|66||0|2|32928|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|67||0|2|32929|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|68||0|2|32931|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|69||0|2|32932|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|70||0|2|32933|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|71||0|2|32934|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|72||0|2|32935|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|73||0|2|32936|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\create-board.asm|75||0|2|32938|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|1||0|2|32939|F|DRAWTETRO
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|1||0|2|32939|L|,DRAWTETRO,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|3||0|2|32939|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|4||0|2|32942|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|5||0|2|32943|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|6||0|2|32945|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|7||0|2|32948|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|8||0|2|32949|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|9||0|2|32952|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|10||0|2|32955|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|11||0|2|32956|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|12||0|2|32957|F|drawfilas
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|12||0|2|32957|L|,drawfilas,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|13||0|2|32957|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|14||0|2|32958|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|15||0|2|32959|F|drawcolumnas
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|15||0|2|32959|L|,drawcolumnas,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|16||0|2|32959|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|17||0|2|32960|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|18||0|2|32962|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|19||0|2|32965|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|20||0|2|32966|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|21||0|2|32969|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|22||0|2|32972|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|23||0|2|32973|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|24||0|2|32974|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|25||0|2|32977|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|26||0|2|32978|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|27||0|2|32979|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|28||0|2|32981|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|29||0|2|32982|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-tetro.asm|31||0|2|32984|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|1||0|2|32985|F|DRAWPIXEL
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|1||0|2|32985|L|,DRAWPIXEL,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|2||0|2|32985|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|3||0|2|32986|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|4||0|2|32987|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|5||0|2|32988|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|7||0|2|32989|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|8||0|2|32990|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|9||0|2|32993|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|10||0|2|32994|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|11||0|2|32995|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|13||0|2|32997|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|14||0|2|32998|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|15||0|2|32999|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|16||0|2|33000|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|17||0|2|33001|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|18||0|2|33002|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|19||0|2|33005|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|20||0|2|33006|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|21||0|2|33007|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|22||0|2|33008|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|23||0|2|33010|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|24||0|2|33011|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|25||0|2|33014|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|26||0|2|33015|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|27||0|2|33016|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|28||0|2|33017|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|29||0|2|33018|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|30||0|2|33019|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\draw-pixel.asm|31||0|2|33020|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|1||0|2|33021|F|TETRODOWN
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|1||0|2|33021|L|,TETRODOWN,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|3||0|2|33021|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|4||0|2|33025|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|5||0|2|33028|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|6||0|2|33030|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|7||0|2|33032|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|9||0|2|33035|F|down
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|9||0|2|33035|L|,down,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|10||0|2|33035|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|11||0|2|33036|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|12||0|2|33039|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|13||0|2|33042|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|14||0|2|33045|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|15||0|2|33048|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|16||0|2|33051|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|17||0|2|33054|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|18||0|2|33057|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|19||0|2|33059|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|20||0|2|33062|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|21||0|2|33064|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|22||0|2|33066|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|23||0|2|33068|F|downcontinue
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|23||0|2|33068|L|,downcontinue,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|24||0|2|33068|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|25||0|2|33071|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|26||0|2|33072|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|27||0|2|33074|F|nexttetro
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|27||0|2|33074|L|,nexttetro,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|28||0|2|33074|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|29||0|2|33077|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|30||0|2|33078|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|31||0|2|33080|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|32||0|2|33083|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|33||0|2|33086|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|34||0|2|33089|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|35||0|2|33090|F|goGameOver
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|35||0|2|33090|L|,goGameOver,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|36||0|2|33090|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|37||0|2|33091|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|38||0|2|33093|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|39||0|2|33094|F|gamecontinue
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|39||0|2|33094|L|,gamecontinue,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-down.asm|40||0|2|33094|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|1||0|2|33095|F|TETRODEL
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|1||0|2|33095|L|,TETRODEL,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|3||0|2|33095|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|4||0|2|33098|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|5||0|2|33099|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|6||0|2|33101|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|7||0|2|33104|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|8||0|2|33105|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|9||0|2|33108|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|10||0|2|33111|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|11||0|2|33112|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|12||0|2|33113|F|rowdel
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|12||0|2|33113|L|,rowdel,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|13||0|2|33113|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|14||0|2|33114|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|15||0|2|33115|F|columndel
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|15||0|2|33115|L|,columndel,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|16||0|2|33115|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|17||0|2|33116|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|18||0|2|33118|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|19||0|2|33121|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|20||0|2|33122|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|21||0|2|33125|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|22||0|2|33127|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|23||0|2|33128|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|24||0|2|33129|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|25||0|2|33132|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|26||0|2|33133|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|27||0|2|33134|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|28||0|2|33136|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|29||0|2|33137|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-tetro.asm|31||0|2|33139|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|1||0|2|33140|F|DELPIXEL
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|1||0|2|33140|L|,DELPIXEL,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|3||0|2|33140|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|4||0|2|33141|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|5||0|2|33142|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|6||0|2|33143|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|8||0|2|33144|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|9||0|2|33145|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|10||0|2|33148|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|11||0|2|33149|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|12||0|2|33150|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|14||0|2|33152|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|15||0|2|33153|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|16||0|2|33154|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|17||0|2|33155|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|18||0|2|33156|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|19||0|2|33157|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|20||0|2|33160|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|21||0|2|33161|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|22||0|2|33162|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|23||0|2|33163|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|24||0|2|33165|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|25||0|2|33166|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|26||0|2|33169|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|27||0|2|33170|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|28||0|2|33171|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|29||0|2|33172|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|30||0|2|33174|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|31||0|2|33175|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\del-pixel.asm|32||0|2|33176|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\last-position.asm|1||0|2|33177|F|LASTPOSITION
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\last-position.asm|1||0|2|33177|L|,LASTPOSITION,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\last-position.asm|3||0|2|33177|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\last-position.asm|4||0|2|33180|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\last-position.asm|5||0|2|33181|F|return
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\last-position.asm|5||0|2|33181|L|,return,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\last-position.asm|6||0|2|33181|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\last-position.asm|7||0|2|33183|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\last-position.asm|9||0|2|33185|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\last-position.asm|10||0|2|33187|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\last-position.asm|11||0|2|33190|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|1||0|2|33191|F|RANDOMTETRO
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|1||0|2|33191|L|,RANDOMTETRO,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|2||0|2|33191|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|3||0|2|33193|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|4||0|2|33195|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|5||0|2|33197|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|6||0|2|33199|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|7||0|2|33201|F|continue
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|7||0|2|33201|L|,continue,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|8||0|2|33201|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|9||0|2|33205|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|10||0|2|33208|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|11||0|2|33209|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|12||0|2|33211|F|more
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|12||0|2|33211|L|,more,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|13||0|2|33211|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|14||0|2|33213|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|15||0|2|33214|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|17||0|2|33216|F|randomend
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|17||0|2|33216|L|,randomend,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|18||0|2|33216|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|20||0|-1|12|D|ANCHOTETRO
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-random.asm|20||0|-1|12|L|,ANCHOTETRO,,+equ,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\IYReturn.asm|1||0|2|33217|F|RETURNIY
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\IYReturn.asm|1||0|2|33217|L|,RETURNIY,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\IYReturn.asm|3||0|2|33217|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\IYReturn.asm|4||0|2|33220|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\IYReturn.asm|5||0|2|33222|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\IYReturn.asm|6||0|2|33224|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\IYReturn.asm|7||0|2|33226|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\IYReturn.asm|10||0|2|33228|F|final
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\IYReturn.asm|10||0|2|33228|L|,final,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\IYReturn.asm|11||0|2|33228|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\delay-tetro.asm|1||0|2|33229|F|TETRODELAY
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\delay-tetro.asm|1||0|2|33229|L|,TETRODELAY,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\delay-tetro.asm|3||0|2|33229|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\delay-tetro.asm|4||0|2|33232|F|delayloop
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\delay-tetro.asm|4||0|2|33232|L|,delayloop,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\delay-tetro.asm|5||0|2|33232|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\delay-tetro.asm|6||0|2|33233|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\delay-tetro.asm|7||0|2|33234|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\delay-tetro.asm|8||0|2|33236|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\delay-tetro.asm|9||0|2|33238|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|1||0|2|33239|F|gamestatusstruct
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|1||0|2|33239|L|,gamestatusstruct,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|4||0|2|33239|F|GameX
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|4||0|2|33239|L|,GameX,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|5||0|2|33240|F|GameY
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|5||0|2|33240|L|,GameY,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|6||0|2|33241|F|TetroPtr
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|6||0|2|33241|L|,TetroPtr,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|7||0|2|33243|F|DownCounter
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|7||0|2|33243|L|,DownCounter,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|8||0|2|33245|F|UndoKey
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|8||0|2|33245|L|,UndoKey,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|9||0|2|33246|F|IXCounter
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|9||0|2|33246|L|,IXCounter,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|10||0|2|33247|F|PosibleColor
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|10||0|2|33247|L|,PosibleColor,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|11||0|2|33248|F|Middle
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\position-coords.asm|11||0|2|33248|L|,Middle,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|1||0|2|33249|F|CHECKCOLISION
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|1||0|2|33249|L|,CHECKCOLISION,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|3||0|2|33249|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|4||0|2|33252|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|5||0|2|33253|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|6||0|2|33255|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|7||0|2|33258|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|8||0|2|33259|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|9||0|2|33262|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|10||0|2|33265|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|11||0|2|33266|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|12||0|2|33267|F|fil
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|12||0|2|33267|L|,fil,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|13||0|2|33267|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|14||0|2|33268|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|15||0|2|33269|F|cols
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|15||0|2|33269|L|,cols,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|16||0|2|33269|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|17||0|2|33270|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|18||0|2|33272|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|19||0|2|33275|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|20||0|2|33276|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|21||0|2|33279|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|22||0|2|33282|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|23||0|2|33285|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|24||0|2|33286|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|25||0|2|33287|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|26||0|2|33290|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|27||0|2|33292|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|28||0|2|33294|F|puede_haber_color
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|28||0|2|33294|L|,puede_haber_color,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|29||0|2|33294|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|30||0|2|33297|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|31||0|2|33299|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|32||0|2|33301|F|hay_color
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|32||0|2|33301|L|,hay_color,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|33||0|2|33301|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|34||0|2|33303|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|35||0|2|33304|F|no_hay_color
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|35||0|2|33304|L|,no_hay_color,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|36||0|2|33304|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|37||0|2|33305|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|38||0|2|33306|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|39||0|2|33308|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|40||0|2|33309|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-colision.asm|42||0|2|33311|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|1||0|2|33312|F|comprobarpunto
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|1||0|2|33312|L|,comprobarpunto,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|3||0|2|33312|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|4||0|2|33313|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|5||0|2|33314|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|7||0|2|33315|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|8||0|2|33316|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|9||0|2|33319|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|10||0|2|33320|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|11||0|2|33321|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|12||0|2|33323|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|13||0|2|33324|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|14||0|2|33325|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|15||0|2|33326|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|16||0|2|33327|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|17||0|2|33328|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|18||0|2|33331|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|19||0|2|33332|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|20||0|2|33333|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|21||0|2|33334|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|22||0|2|33336|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|23||0|2|33337|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|24||0|2|33340|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|25||0|2|33341|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|26||0|2|33342|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|27||0|2|33343|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|28||0|2|33344|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\check-pixel.asm|29||0|2|33345|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|1||0|2|33346|F|TURNTETRO
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|1||0|2|33346|L|,TURNTETRO,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|4||0|2|33346|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|5||0|2|33349|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|6||0|2|33351|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|7||0|2|33353|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|8||0|2|33355|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|9||0|2|33357|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|10||0|2|33359|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|12||0|2|33361|F|turn_right
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|12||0|2|33361|L|,turn_right,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|13||0|2|33361|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|14||0|2|33364|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|15||0|2|33367|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|15||0|2|33368|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|16||0|2|33370|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|18||0|2|33372|F|turn_left
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|18||0|2|33372|L|,turn_left,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|19||0|2|33372|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|20||0|2|33375|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|21||0|2|33378|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|21||0|2|33379|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|22||0|2|33381|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|23||0|2|33383|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|26||0|2|33384|F|SoltarTecla
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|26||0|2|33384|L|,SoltarTecla,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|27||0|2|33384|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|28||0|2|33386|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|29||0|2|33388|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|30||0|2|33390|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|32||0|2|33391|F|no_tecla
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|32||0|2|33391|L|,no_tecla,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\turn-tetro.asm|33||0|2|33391|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|1||0|2|33392|F|TETROMOVE
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|1||0|2|33392|L|,TETROMOVE,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|4||0|2|33392|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|5||0|2|33395|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|6||0|2|33397|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|7||0|2|33399|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|8||0|2|33401|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|9||0|2|33403|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|10||0|2|33405|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|12||0|2|33407|F|move_right
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|12||0|2|33407|L|,move_right,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|13||0|2|33407|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|14||0|2|33410|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|15||0|2|33411|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|16||0|2|33414|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|17||0|2|33416|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|19||0|2|33417|F|move_left
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|19||0|2|33417|L|,move_left,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|20||0|2|33417|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|21||0|2|33420|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|22||0|2|33421|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|23||0|2|33424|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|24||0|2|33426|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|27||0|2|33427|F|SoltarTeclaMv
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|27||0|2|33427|L|,SoltarTeclaMv,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|28||0|2|33427|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|29||0|2|33429|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|30||0|2|33431|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|31||0|2|33433|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|33||0|2|33434|F|no_tecla_move
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|33||0|2|33434|L|,no_tecla_move,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\tetro-move.asm|34||0|2|33434|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|2||0|2|33435|F|STARTSCREEN
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|2||0|2|33435|L|,STARTSCREEN,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|3||0|2|33435|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|4||0|2|33438|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|6||0|2|33441|F|startInit
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|6||0|2|33441|L|,startInit,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|8||0|2|33441|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|9||0|2|33443|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|10||0|2|33445|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|11||0|2|33447|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|12||0|2|33451|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|16||0|2|33454|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|17||0|2|33456|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|18||0|2|33458|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|19||0|2|33460|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|20||0|2|33464|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|22||0|2|33467|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|23||0|2|33469|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|24||0|2|33471|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|25||0|2|33474|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|26||0|2|33476|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|28||0|2|33477|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|32||0|2|33480|F|Coor_Atrib
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|32||0|2|33480|L|,Coor_Atrib,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|33||0|2|33480|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|34||0|2|33481|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|35:1:12||0|2|33482|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|35:12:20||0|2|33484|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|35:20||0|2|33486|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|36||0|2|33488|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|37:1:12||0|2|33489|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|37:12:20||0|2|33491|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|37:20:28||0|2|33493|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|37:28:36||0|2|33495|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|37:36||0|2|33497|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|38||0|2|33499|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|39||0|2|33500|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|40||0|2|33501|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|41||0|2|33504|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|42||0|2|33505|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|43||0|2|33506|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|46||0|2|33507|F|TecladoInicio
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|46||0|2|33507|L|,TecladoInicio,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|47||0|2|33507|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|48||0|2|33510|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|49||0|2|33512|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|50||0|2|33514|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|51||0|2|33516|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|52||0|2|33519|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|53||0|2|33521|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|54||0|2|33523|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|56||0|2|33525|F|T_S
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|56||0|2|33525|L|,T_S,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|57||0|2|33525|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|58||0|2|33527|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|60||0|2|33528|F|T_N
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|60||0|2|33528|L|,T_N,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|61||0|2|33528|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|63||0|2|33529|F|Soltar_Tecla
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|63||0|2|33529|L|,Soltar_Tecla,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|64||0|2|33529|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|65||0|2|33531|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|66||0|2|33533|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|67||0|2|33535|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|71||0|2|33536|F|StartTitle
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|71||0|2|33536|L|,StartTitle,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|72||0|2|33554|F|StartQuestion
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|72||0|2|33554|L|,StartQuestion,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|73||0|2|33581|F|Respuesta
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\pantalla-inicio.asm|73||0|2|33581|L|,Respuesta,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|14||0|2|33598|F|PRINTAT
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|14||0|2|33598|L|,PRINTAT,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|14||0|2|33598|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|20||0|2|33601|F|PRINTSTR
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|20||0|2|33601|L|,PRINTSTR,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|20||0|2|33601|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|21||0|2|33604|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|22||0|2|33605|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|23||0|2|33606|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|24||0|2|33609|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|25||0|2|33611|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|32||0|2|33613|F|PREP_PRT
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|32||0|2|33613|L|,PREP_PRT,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|32||0|2|33613|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|33||0|2|33616|F|PREP_PRT_2
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|33||0|2|33616|L|,PREP_PRT_2,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|33||0|2|33616|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|34||0|2|33619|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|45||0|2|33622|F|CRtoSCREEN
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|45||0|2|33622|L|,CRtoSCREEN,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|46||0|2|33622|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|47||0|2|33623|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|48||0|2|33625|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|49||0|2|33627|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|51||0|2|33628|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|52||0|2|33629|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|53||0|2|33631|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|54||0|2|33632|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|55||0|2|33633|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|56||0|2|33634|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|57||0|2|33635|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|58||0|2|33636|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|59||0|2|33639|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|72||0|2|33640|F|CRtoATTR
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|72||0|2|33640|L|,CRtoATTR,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|73||0|2|33640|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|74||0|2|33641|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|75||0|2|33642|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|76||0|2|33643|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|77||0|2|33644|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|78||0|2|33645|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|79||0|2|33647|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|80||0|2|33649|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|82||0|2|33650|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|83||0|2|33651|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|84||0|2|33653|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|85||0|2|33654|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|87||0|2|33655|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|88||0|2|33658|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|96||0|2|33659|F|PRINTCHNUM
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|96||0|2|33659|L|,PRINTCHNUM,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|97||0|2|33659|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|98||0|2|33661|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|99||0|2|33662|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|100||0|2|33663|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|101||0|2|33664|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|102||0|2|33665|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|103||0|2|33668|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|104||0|2|33669|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|112||0|2|33670|F|PRINTCHAR
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|112||0|2|33670|L|,PRINTCHAR,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|113||0|2|33670|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|114||0|2|33672|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|116||0|2|33675|F|BYTEPCHAR
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|116||0|2|33675|L|,BYTEPCHAR,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|116||0|2|33675|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|117||0|2|33676|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|118||0|2|33677|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|119||0|2|33678|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|120||0|2|33679|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|121||0|2|33681|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|122||0|2|33684|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|123||0|2|33687|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|124||0|2|33688|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|125||0|2|33691|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|126||0|2|33692|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|127||0|2|33695|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|128||0|2|33696|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|137||0|2|33697|F|INK2PAPER
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|137||0|2|33697|L|,INK2PAPER,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|137||0|2|33697|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|138||0|2|33700|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|139||0|2|33702|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|140||0|2|33703|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|141||0|2|33704|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|142||0|2|33705|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|143||0|2|33707|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|144||0|2|33710|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|150||0|2|33711|F|CLEARSCR
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|150||0|2|33711|L|,CLEARSCR,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|150||0|2|33711|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|151||0|2|33714|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|152||0|2|33717|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|153||0|2|33720|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|154||0|2|33722|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|155||0|2|33724|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|158:1:14||0|2|33725|F|SCR_CUR_PTR
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|158:1:14||0|2|33725|L|,SCR_CUR_PTR,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|159||0|2|33727|F|SCR_ATTR_PTR
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|159||0|2|33727|L|,SCR_ATTR_PTR,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|160||0|2|33729|F|PRINT_ATTR
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|160||0|2|33729|L|,PRINT_ATTR,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|162||0|2|33730|F|CHARSET
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\printat.asm|162||0|2|33730|L|,CHARSET,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|1||0|2|34498|F|TETROMINOS
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|1||0|2|34498|L|,TETROMINOS,
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|4:1:40||0|2|34498|F|T_O
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|4:1:40||0|2|34498|L|,T_O,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|6:1:41||0|2|34510|F|T_L1
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|6:1:41||0|2|34510|L|,T_L1,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|7:1:41||0|2|34522|F|T_L2
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|7:1:41||0|2|34522|L|,T_L2,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|8:1:41||0|2|34534|F|T_L3
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|8:1:41||0|2|34534|L|,T_L3,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|9:1:41||0|2|34546|F|T_L4
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|9:1:41||0|2|34546|L|,T_L4,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|11:1:41||0|2|34558|F|T_J1
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|11:1:41||0|2|34558|L|,T_J1,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|12:1:41||0|2|34570|F|T_J2
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|12:1:41||0|2|34570|L|,T_J2,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|13:1:41||0|2|34582|F|T_J3
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|13:1:41||0|2|34582|L|,T_J3,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|14:1:41||0|2|34594|F|T_J4
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|14:1:41||0|2|34594|L|,T_J4,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|16:1:42||0|2|34606|F|T_T1
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|16:1:42||0|2|34606|L|,T_T1,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|17:1:42||0|2|34618|F|T_T2
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|17:1:42||0|2|34618|L|,T_T2,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|18:1:42||0|2|34630|F|T_T3
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|18:1:42||0|2|34630|L|,T_T3,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|19:1:42||0|2|34642|F|T_T4
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|19:1:42||0|2|34642|L|,T_T4,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|21:1:42||0|2|34654|F|T_I1
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|21:1:42||0|2|34654|L|,T_I1,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|22:1:42||0|2|34666|F|T_I2
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|22:1:42||0|2|34666|L|,T_I2,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|24:1:42||0|2|34678|F|T_Z1
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|24:1:42||0|2|34678|L|,T_Z1,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|25:1:42||0|2|34690|F|T_Z2
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|25:1:42||0|2|34690|L|,T_Z2,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|27:1:42||0|2|34702|F|T_S1
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|27:1:42||0|2|34702|L|,T_S1,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|28:1:42||0|2|34714|F|T_S2
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|28:1:42||0|2|34714|L|,T_S2,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|30||0|2|34726|F|row_coords
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\fichas.asm|30||0|2|34726|L|,row_coords,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|1||0|2|34749|F|Tetro_3D
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|1||0|2|34749|L|,Tetro_3D,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|3||0|2|34757|F|Tetris_3D
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|3||0|2|34757|L|,Tetris_3D,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|4||0|2|34757|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|5||0|2|34759|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|7||0|2|34763|F|T3D3
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|7||0|2|34763|L|,T3D3,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|9||0|2|34763|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|11||0|2|34767|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|12||0|2|34769|F|T3D2
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|12||0|2|34769|L|,T3D2,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|13||0|2|34769|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|14||0|2|34771|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|15||0|2|34774|F|T3D1
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|15||0|2|34774|L|,T3D1,,+used
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|16||0|2|34774|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|17||0|2|34777|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|18||0|2|34779|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|20||0|2|34781|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|21||0|2|34782|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|22||0|2|34784|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|24||0|2|34786|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|25||0|2|34787|T|
-C:\Users\Mario\Documents\Trabajos Uni\2\Arquitectura y Organizacion de computadores\Tetris\Tetris_3D.asm|27||0|2|34789|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\main.asm|1||0|-1|-1|Z|pages.size:16384,pages.count:4,slots.count:4,slots.adr:0,16384,32768,49152
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\main.asm|3||0|2|32768|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\main.asm|5||0|2|32771|F|gameStart
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\main.asm|5||0|2|32771|L|,gameStart,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\main.asm|6||0|2|32771|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\main.asm|7||0|2|32774|F|gameInit
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\main.asm|7||0|2|32774|L|,gameInit,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\main.asm|8||0|2|32774|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\main.asm|9||0|2|32777|F|gameEnd
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\main.asm|9||0|2|32777|L|,gameEnd,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\main.asm|10||0|2|32777|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\main.asm|12||0|2|32780|F|mainEnd
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\main.asm|12||0|2|32780|L|,mainEnd,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\main.asm|12||0|2|32780|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-final.asm|1||0|2|32782|F|ENDSCREEN
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-final.asm|1||0|2|32782|L|,ENDSCREEN,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-final.asm|2||0|2|32782|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-final.asm|5||0|2|32785|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-final.asm|6||0|2|32787|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-final.asm|7||0|2|32789|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-final.asm|8||0|2|32791|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-final.asm|9||0|2|32795|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-final.asm|10||0|2|32798|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-final.asm|16||0|2|32799|F|GameOverText
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-final.asm|16||0|2|32799|L|,GameOverText,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-final.asm|17||0|2|32809|F|ContinueText
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-final.asm|17||0|2|32809|L|,ContinueText,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|1||0|2|32831|F|MAINGAME
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|1||0|2|32831|L|,MAINGAME,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|2||0|2|32831|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|4||0|2|32834|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|5||0|2|32837|F|gameflow
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|5||0|2|32837|L|,gameflow,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|6||0|2|32837|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|7||0|2|32840|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|8||0|2|32842|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|9||0|2|32845|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|10||0|2|32848|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|11||0|2|32850|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|12||0|2|32852|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|14||0|2|32853|F|fin
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|14||0|2|32853|L|,fin,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\game.asm|14||0|2|32853|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|1||0|2|32855|F|CREATEBOARD
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|1||0|2|32855|L|,CREATEBOARD,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|2||0|2|32855|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|3||0|-1|14|D|ANCHO
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|3||0|-1|14|L|,ANCHO,,+equ,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|4||0|-1|22|D|LARGO
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|4||0|-1|22|L|,LARGO,,+equ,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|6||0|2|32858|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|7||0|2|32861|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|8||0|2|32863|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|9||0|2|32865|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|10||0|2|32867|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|11||0|2|32869|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|12||0|2|32870|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|13||0|2|32872|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|14||0|2|32874|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|15||0|2|32875|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|16||0|2|32878|F|bucle1
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|16||0|2|32878|L|,bucle1,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|17||0|2|32878|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|18||0|2|32879|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|19||0|2|32881|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|20||0|2|32883|F|bucle
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|20||0|2|32883|L|,bucle,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|21||0|2|32883|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|22||0|2|32884|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|23||0|2|32885|F|marco_izq
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|23||0|2|32885|L|,marco_izq,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|24||0|2|32885|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|25||0|2|32886|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|26||0|2|32888|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|27||0|2|32889|F|margenizq
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|27||0|2|32889|L|,margenizq,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|28||0|2|32889|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|29||0|2|32890|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|30||0|2|32892|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|31||0|2|32893|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|32||0|2|32894|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|33||0|2|32895|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|34||0|2|32896|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|35||0|2|32897|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|36||0|2|32899|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|37||0|2|32901|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|38||0|2|32902|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|39||0|2|32903|F|comienzo_ancho
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|39||0|2|32903|L|,comienzo_ancho,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|40||0|2|32903|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|41||0|2|32904|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|42||0|2|32906|F|margendrcho
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|42||0|2|32906|L|,margendrcho,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|43||0|2|32906|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|44||0|2|32907|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|45||0|2|32909|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|46||0|2|32910|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|47||0|2|32911|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|48||0|2|32912|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|49||0|2|32913|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|51||0|2|32914|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|52||0|2|32915|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|53||0|2|32916|F|marco_drcho
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|53||0|2|32916|L|,marco_drcho,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|54||0|2|32916|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|55||0|2|32917|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|56||0|2|32919|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|57||0|2|32920|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|59||0|2|32922|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|60||0|2|32923|F|marco_izq_fila_ult
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|60||0|2|32923|L|,marco_izq_fila_ult,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|61||0|2|32923|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|62||0|2|32924|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|63||0|2|32926|F|fila_ultima
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|63||0|2|32926|L|,fila_ultima,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|64||0|2|32926|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|65||0|2|32928|F|bucle2
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|65||0|2|32928|L|,bucle2,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|66||0|2|32928|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|67||0|2|32929|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|68||0|2|32931|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|69||0|2|32932|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|70||0|2|32933|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|71||0|2|32934|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|72||0|2|32935|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|73||0|2|32936|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\create-board.asm|75||0|2|32938|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|1||0|2|32939|F|DRAWTETRO
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|1||0|2|32939|L|,DRAWTETRO,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|3||0|2|32939|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|4||0|2|32942|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|5||0|2|32943|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|6||0|2|32945|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|7||0|2|32948|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|8||0|2|32949|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|9||0|2|32952|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|10||0|2|32955|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|11||0|2|32956|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|12||0|2|32957|F|drawfilas
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|12||0|2|32957|L|,drawfilas,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|13||0|2|32957|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|14||0|2|32958|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|15||0|2|32959|F|drawcolumnas
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|15||0|2|32959|L|,drawcolumnas,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|16||0|2|32959|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|17||0|2|32960|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|18||0|2|32962|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|19||0|2|32965|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|20||0|2|32966|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|21||0|2|32969|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|22||0|2|32972|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|23||0|2|32973|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|24||0|2|32974|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|25||0|2|32977|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|26||0|2|32978|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|27||0|2|32979|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|28||0|2|32981|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|29||0|2|32982|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-tetro.asm|31||0|2|32984|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|1||0|2|32985|F|DRAWPIXEL
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|1||0|2|32985|L|,DRAWPIXEL,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|2||0|2|32985|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|3||0|2|32986|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|4||0|2|32987|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|5||0|2|32988|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|7||0|2|32989|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|8||0|2|32990|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|9||0|2|32993|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|10||0|2|32994|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|11||0|2|32995|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|13||0|2|32997|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|14||0|2|32998|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|15||0|2|32999|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|16||0|2|33000|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|17||0|2|33001|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|18||0|2|33002|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|19||0|2|33005|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|20||0|2|33006|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|21||0|2|33007|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|22||0|2|33008|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|23||0|2|33010|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|24||0|2|33011|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|25||0|2|33014|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|26||0|2|33015|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|27||0|2|33016|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|28||0|2|33017|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|29||0|2|33019|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|30||0|2|33021|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|31||0|2|33022|F|tetroExistDraw
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|31||0|2|33022|L|,tetroExistDraw,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|32||0|2|33022|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|33||0|2|33023|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\draw-pixel.asm|34||0|2|33024|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|1||0|2|33025|F|TETRODOWN
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|1||0|2|33025|L|,TETRODOWN,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|3||0|2|33025|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|4||0|2|33029|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|5||0|2|33032|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|6||0|2|33034|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|7||0|2|33036|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|9||0|2|33039|F|down
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|9||0|2|33039|L|,down,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|10||0|2|33039|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|11||0|2|33040|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|12||0|2|33043|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|13||0|2|33046|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|14||0|2|33049|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|15||0|2|33052|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|16||0|2|33055|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|17||0|2|33057|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|18||0|2|33060|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|19||0|2|33063|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|20||0|2|33066|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|21||0|2|33068|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|22||0|2|33070|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|24||0|2|33072|F|downcontinue
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|24||0|2|33072|L|,downcontinue,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|25||0|2|33072|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|26||0|2|33075|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|27||0|2|33076|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|28||0|2|33078|F|nexttetro
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|28||0|2|33078|L|,nexttetro,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|29||0|2|33078|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|30||0|2|33081|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|31||0|2|33084|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|32||0|2|33086|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|33||0|2|33088|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|34||0|2|33090|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|35||0|2|33092|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|36||0|2|33094|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|37||0|2|33096|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|38||0|2|33098|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|39||0|2|33100|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|40||0|2|33101|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|41||0|2|33103|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|42||0|2|33106|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|43||0|2|33109|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|44||0|2|33112|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|45||0|2|33113|F|right_wall
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|45||0|2|33113|L|,right_wall,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|46||0|2|33113|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|47||0|2|33114|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|48||0|2|33117|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|49||0|2|33120|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|50||0|2|33122|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|51||0|2|33124|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|52||0|2|33126|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|53||0|2|33128|F|left_wall
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|53||0|2|33128|L|,left_wall,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|54||0|2|33128|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|55||0|2|33129|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|56||0|2|33132|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|57||0|2|33135|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|58||0|2|33137|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|59||0|2|33139|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|61||0|2|33141|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|62||0|2|33143|F|goGameOver
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|62||0|2|33143|L|,goGameOver,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|63||0|2|33143|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|64||0|2|33144|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|65||0|2|33146|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|66||0|2|33147|F|gamecontinue
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|66||0|2|33147|L|,gamecontinue,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-down.asm|67||0|2|33147|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|1||0|2|33148|F|TETRODEL
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|1||0|2|33148|L|,TETRODEL,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|3||0|2|33148|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|4||0|2|33151|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|5||0|2|33152|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|6||0|2|33154|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|7||0|2|33157|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|8||0|2|33158|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|9||0|2|33161|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|10||0|2|33164|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|11||0|2|33165|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|12||0|2|33166|F|rowdel
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|12||0|2|33166|L|,rowdel,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|13||0|2|33166|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|14||0|2|33167|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|15||0|2|33168|F|columndel
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|15||0|2|33168|L|,columndel,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|16||0|2|33168|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|17||0|2|33169|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|18||0|2|33171|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|19||0|2|33174|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|20||0|2|33175|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|21||0|2|33178|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|22||0|2|33181|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|23||0|2|33182|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|24||0|2|33183|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|25||0|2|33186|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|26||0|2|33187|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|27||0|2|33188|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|28||0|2|33190|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|29||0|2|33191|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-tetro.asm|31||0|2|33193|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|1||0|2|33194|F|DELPIXEL
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|1||0|2|33194|L|,DELPIXEL,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|3||0|2|33194|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|4||0|2|33195|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|5||0|2|33196|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|6||0|2|33197|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|8||0|2|33198|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|9||0|2|33199|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|10||0|2|33202|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|11||0|2|33203|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|12||0|2|33204|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|14||0|2|33206|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|15||0|2|33207|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|16||0|2|33208|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|17||0|2|33209|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|18||0|2|33210|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|19||0|2|33211|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|20||0|2|33214|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|21||0|2|33215|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|22||0|2|33216|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|23||0|2|33217|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|24||0|2|33219|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|25||0|2|33220|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|26||0|2|33223|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|27||0|2|33224|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|28||0|2|33225|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|29||0|2|33226|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|30||0|2|33228|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|31||0|2|33230|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|32||0|2|33232|F|tetroExist
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|32||0|2|33232|L|,tetroExist,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|33||0|2|33232|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|34||0|2|33233|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\del-pixel.asm|35||0|2|33234|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\last-position.asm|1||0|2|33235|F|LASTPOSITION
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\last-position.asm|1||0|2|33235|L|,LASTPOSITION,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\last-position.asm|3||0|2|33235|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\last-position.asm|4||0|2|33238|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\last-position.asm|5||0|2|33239|F|return
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\last-position.asm|5||0|2|33239|L|,return,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\last-position.asm|6||0|2|33239|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\last-position.asm|7||0|2|33241|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\last-position.asm|9||0|2|33243|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\last-position.asm|10||0|2|33245|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\last-position.asm|11||0|2|33248|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|1||0|2|33249|F|RANDOMTETRO
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|1||0|2|33249|L|,RANDOMTETRO,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|2||0|2|33249|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|3||0|2|33251|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|4||0|2|33253|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|5||0|2|33255|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|6||0|2|33257|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|7||0|2|33259|F|continue
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|7||0|2|33259|L|,continue,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|8||0|2|33259|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|9||0|2|33263|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|10||0|2|33266|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|11||0|2|33267|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|12||0|2|33269|F|more
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|12||0|2|33269|L|,more,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|13||0|2|33269|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|14||0|2|33271|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|15||0|2|33272|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|17||0|2|33274|F|randomend
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|17||0|2|33274|L|,randomend,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|18||0|2|33274|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|20||0|-1|12|D|ANCHOTETRO
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-random.asm|20||0|-1|12|L|,ANCHOTETRO,,+equ,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\IYReturn.asm|1||0|2|33275|F|RETURNIY
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\IYReturn.asm|1||0|2|33275|L|,RETURNIY,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\IYReturn.asm|3||0|2|33275|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\IYReturn.asm|4||0|2|33278|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\IYReturn.asm|5||0|2|33280|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\IYReturn.asm|6||0|2|33282|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\IYReturn.asm|7||0|2|33284|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\IYReturn.asm|10||0|2|33286|F|final
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\IYReturn.asm|10||0|2|33286|L|,final,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\IYReturn.asm|11||0|2|33286|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\delay-tetro.asm|1||0|2|33287|F|TETRODELAY
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\delay-tetro.asm|1||0|2|33287|L|,TETRODELAY,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\delay-tetro.asm|3||0|2|33287|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\delay-tetro.asm|4||0|2|33290|F|delayloop
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\delay-tetro.asm|4||0|2|33290|L|,delayloop,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\delay-tetro.asm|5||0|2|33290|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\delay-tetro.asm|6||0|2|33291|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\delay-tetro.asm|7||0|2|33292|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\delay-tetro.asm|8||0|2|33294|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\delay-tetro.asm|9||0|2|33296|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|1||0|2|33297|F|gamestatusstruct
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|1||0|2|33297|L|,gamestatusstruct,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|4||0|2|33297|F|GameX
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|4||0|2|33297|L|,GameX,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|5||0|2|33298|F|GameY
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|5||0|2|33298|L|,GameY,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|6||0|2|33299|F|TetroPtr
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|6||0|2|33299|L|,TetroPtr,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|7||0|2|33301|F|DownCounter
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|7||0|2|33301|L|,DownCounter,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|8||0|2|33303|F|UndoKey
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|8||0|2|33303|L|,UndoKey,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|9||0|2|33304|F|IXCounter
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|9||0|2|33304|L|,IXCounter,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|10||0|2|33305|F|PosibleColor
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|10||0|2|33305|L|,PosibleColor,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|11||0|2|33306|F|NewColor
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|11||0|2|33306|L|,NewColor,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|12||0|2|33307|F|OldColor
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|12||0|2|33307|L|,OldColor,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|13||0|2|33308|F|GameXPosible
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|13||0|2|33308|L|,GameXPosible,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|14||0|2|33309|F|GameYPosible
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|14||0|2|33309|L|,GameYPosible,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|15||0|2|33310|F|Middle
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\position-coords.asm|15||0|2|33310|L|,Middle,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|1||0|2|33311|F|CHECKCOLISION
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|1||0|2|33311|L|,CHECKCOLISION,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|3||0|2|33311|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|4||0|2|33314|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|5||0|2|33315|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|6||0|2|33317|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|7||0|2|33320|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|8||0|2|33321|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|9||0|2|33324|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|10||0|2|33327|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|11||0|2|33328|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|12||0|2|33329|F|fil
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|12||0|2|33329|L|,fil,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|13||0|2|33329|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|14||0|2|33330|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|15||0|2|33331|F|cols
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|15||0|2|33331|L|,cols,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|16||0|2|33331|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|17||0|2|33332|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|18||0|2|33334|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|19||0|2|33337|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|20||0|2|33338|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|21||0|2|33341|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|22||0|2|33344|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|23||0|2|33347|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|24||0|2|33348|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|25||0|2|33349|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|26||0|2|33352|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|27||0|2|33355|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|28||0|2|33356|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|29||0|2|33359|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|30||0|2|33360|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|31||0|2|33363|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|32||0|2|33366|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|33||0|2|33368|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|34||0|2|33370|F|puede_haber_color
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|34||0|2|33370|L|,puede_haber_color,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|35||0|2|33370|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|36||0|2|33373|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|37||0|2|33375|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|38||0|2|33377|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|39||0|2|33379|F|hay_color
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|39||0|2|33379|L|,hay_color,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|40||0|2|33379|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|41||0|2|33381|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|42||0|2|33382|F|no_hay_color
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|42||0|2|33382|L|,no_hay_color,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|43||0|2|33382|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|44||0|2|33383|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|45||0|2|33384|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|46||0|2|33386|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|47||0|2|33387|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-colision.asm|49||0|2|33389|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|1||0|2|33390|F|comprobarpunto
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|1||0|2|33390|L|,comprobarpunto,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|3||0|2|33390|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|4||0|2|33391|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|5||0|2|33392|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|7||0|2|33393|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|8||0|2|33394|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|9||0|2|33397|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|10||0|2|33398|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|11||0|2|33399|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|12||0|2|33401|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|13||0|2|33402|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|14||0|2|33403|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|15||0|2|33404|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|16||0|2|33405|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|17||0|2|33406|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|18||0|2|33409|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|19||0|2|33410|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|20||0|2|33411|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|21||0|2|33412|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|22||0|2|33414|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|23||0|2|33415|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|24||0|2|33418|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|25||0|2|33419|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|26||0|2|33420|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|27||0|2|33421|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|28||0|2|33422|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\check-pixel.asm|29||0|2|33423|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|1||0|2|33424|F|TURNTETRO
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|1||0|2|33424|L|,TURNTETRO,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|4||0|2|33424|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|5||0|2|33427|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|6||0|2|33429|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|7||0|2|33431|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|8||0|2|33433|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|9||0|2|33435|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|10||0|2|33437|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|12||0|2|33439|F|turn_right
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|12||0|2|33439|L|,turn_right,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|13||0|2|33439|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|14||0|2|33442|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|15||0|2|33445|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|15||0|2|33446|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|16||0|2|33448|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|18||0|2|33450|F|turn_left
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|18||0|2|33450|L|,turn_left,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|19||0|2|33450|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|20||0|2|33453|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|21||0|2|33456|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|21||0|2|33457|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|22||0|2|33459|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|23||0|2|33461|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|26||0|2|33462|F|SoltarTecla
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|26||0|2|33462|L|,SoltarTecla,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|27||0|2|33462|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|28||0|2|33464|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|29||0|2|33466|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|30||0|2|33468|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|32||0|2|33469|F|no_tecla
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|32||0|2|33469|L|,no_tecla,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\turn-tetro.asm|33||0|2|33469|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|1||0|2|33470|F|TETROMOVE
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|1||0|2|33470|L|,TETROMOVE,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|4||0|2|33470|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|5||0|2|33473|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|6||0|2|33475|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|7||0|2|33477|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|8||0|2|33479|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|9||0|2|33481|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|12||0|2|33483|F|move_right
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|12||0|2|33483|L|,move_right,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|13||0|2|33483|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|14||0|2|33486|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|15||0|2|33487|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|16||0|2|33490|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|17||0|2|33492|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|19||0|2|33493|F|move_left
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|19||0|2|33493|L|,move_left,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|20||0|2|33493|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|21||0|2|33496|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|22||0|2|33497|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|23||0|2|33500|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|24||0|2|33502|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|27||0|2|33503|F|SoltarTeclaMv
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|27||0|2|33503|L|,SoltarTeclaMv,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|28||0|2|33503|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|29||0|2|33505|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|30||0|2|33507|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|31||0|2|33509|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|33||0|2|33510|F|no_tecla_move
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|33||0|2|33510|L|,no_tecla_move,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\tetro-move.asm|34||0|2|33510|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|2||0|2|33511|F|STARTSCREEN
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|2||0|2|33511|L|,STARTSCREEN,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|3||0|2|33511|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|4||0|2|33514|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|6||0|2|33517|F|startInit
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|6||0|2|33517|L|,startInit,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|8||0|2|33517|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|9||0|2|33519|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|10||0|2|33521|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|11||0|2|33523|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|12||0|2|33527|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|16||0|2|33530|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|17||0|2|33532|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|18||0|2|33534|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|19||0|2|33536|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|20||0|2|33540|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|22||0|2|33543|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|23||0|2|33545|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|24||0|2|33547|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|25||0|2|33550|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|26||0|2|33552|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|28||0|2|33553|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|32||0|2|33556|F|Coor_Atrib
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|32||0|2|33556|L|,Coor_Atrib,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|33||0|2|33556|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|34||0|2|33557|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|35:1:12||0|2|33558|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|35:12:20||0|2|33560|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|35:20||0|2|33562|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|36||0|2|33564|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|37:1:12||0|2|33565|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|37:12:20||0|2|33567|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|37:20:28||0|2|33569|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|37:28:36||0|2|33571|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|37:36||0|2|33573|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|38||0|2|33575|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|39||0|2|33576|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|40||0|2|33577|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|41||0|2|33580|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|42||0|2|33581|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|43||0|2|33582|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|46||0|2|33583|F|TecladoInicio
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|46||0|2|33583|L|,TecladoInicio,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|47||0|2|33583|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|48||0|2|33586|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|49||0|2|33588|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|50||0|2|33590|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|51||0|2|33592|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|52||0|2|33595|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|53||0|2|33597|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|54||0|2|33599|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|56||0|2|33601|F|T_S
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|56||0|2|33601|L|,T_S,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|57||0|2|33601|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|58||0|2|33603|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|60||0|2|33604|F|T_N
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|60||0|2|33604|L|,T_N,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|61||0|2|33604|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|63||0|2|33605|F|Soltar_Tecla
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|63||0|2|33605|L|,Soltar_Tecla,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|64||0|2|33605|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|65||0|2|33607|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|66||0|2|33609|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|67||0|2|33611|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|71||0|2|33612|F|StartTitle
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|71||0|2|33612|L|,StartTitle,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|72||0|2|33630|F|StartQuestion
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|72||0|2|33630|L|,StartQuestion,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|73||0|2|33657|F|Respuesta
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\pantalla-inicio.asm|73||0|2|33657|L|,Respuesta,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|14||0|2|33674|F|PRINTAT
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|14||0|2|33674|L|,PRINTAT,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|14||0|2|33674|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|20||0|2|33677|F|PRINTSTR
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|20||0|2|33677|L|,PRINTSTR,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|20||0|2|33677|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|21||0|2|33680|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|22||0|2|33681|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|23||0|2|33682|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|24||0|2|33685|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|25||0|2|33687|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|32||0|2|33689|F|PREP_PRT
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|32||0|2|33689|L|,PREP_PRT,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|32||0|2|33689|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|33||0|2|33692|F|PREP_PRT_2
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|33||0|2|33692|L|,PREP_PRT_2,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|33||0|2|33692|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|34||0|2|33695|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|45||0|2|33698|F|CRtoSCREEN
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|45||0|2|33698|L|,CRtoSCREEN,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|46||0|2|33698|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|47||0|2|33699|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|48||0|2|33701|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|49||0|2|33703|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|51||0|2|33704|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|52||0|2|33705|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|53||0|2|33707|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|54||0|2|33708|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|55||0|2|33709|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|56||0|2|33710|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|57||0|2|33711|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|58||0|2|33712|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|59||0|2|33715|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|72||0|2|33716|F|CRtoATTR
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|72||0|2|33716|L|,CRtoATTR,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|73||0|2|33716|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|74||0|2|33717|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|75||0|2|33718|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|76||0|2|33719|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|77||0|2|33720|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|78||0|2|33721|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|79||0|2|33723|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|80||0|2|33725|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|82||0|2|33726|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|83||0|2|33727|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|84||0|2|33729|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|85||0|2|33730|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|87||0|2|33731|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|88||0|2|33734|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|96||0|2|33735|F|PRINTCHNUM
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|96||0|2|33735|L|,PRINTCHNUM,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|97||0|2|33735|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|98||0|2|33737|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|99||0|2|33738|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|100||0|2|33739|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|101||0|2|33740|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|102||0|2|33741|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|103||0|2|33744|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|104||0|2|33745|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|112||0|2|33746|F|PRINTCHAR
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|112||0|2|33746|L|,PRINTCHAR,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|113||0|2|33746|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|114||0|2|33748|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|116||0|2|33751|F|BYTEPCHAR
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|116||0|2|33751|L|,BYTEPCHAR,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|116||0|2|33751|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|117||0|2|33752|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|118||0|2|33753|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|119||0|2|33754|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|120||0|2|33755|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|121||0|2|33757|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|122||0|2|33760|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|123||0|2|33763|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|124||0|2|33764|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|125||0|2|33767|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|126||0|2|33768|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|127||0|2|33771|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|128||0|2|33772|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|137||0|2|33773|F|INK2PAPER
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|137||0|2|33773|L|,INK2PAPER,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|137||0|2|33773|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|138||0|2|33776|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|139||0|2|33778|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|140||0|2|33779|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|141||0|2|33780|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|142||0|2|33781|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|143||0|2|33783|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|144||0|2|33786|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|150||0|2|33787|F|CLEARSCR
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|150||0|2|33787|L|,CLEARSCR,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|150||0|2|33787|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|151||0|2|33790|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|152||0|2|33793|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|153||0|2|33796|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|154||0|2|33798|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|155||0|2|33800|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|158:1:14||0|2|33801|F|SCR_CUR_PTR
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|158:1:14||0|2|33801|L|,SCR_CUR_PTR,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|159||0|2|33803|F|SCR_ATTR_PTR
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|159||0|2|33803|L|,SCR_ATTR_PTR,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|160||0|2|33805|F|PRINT_ATTR
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|160||0|2|33805|L|,PRINT_ATTR,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|162||0|2|33806|F|CHARSET
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\printat.asm|162||0|2|33806|L|,CHARSET,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|1||0|2|34574|F|TETROMINOS
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|1||0|2|34574|L|,TETROMINOS,
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|4:1:40||0|2|34574|F|T_O
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|4:1:40||0|2|34574|L|,T_O,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|6:1:41||0|2|34586|F|T_L1
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|6:1:41||0|2|34586|L|,T_L1,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|7:1:41||0|2|34598|F|T_L2
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|7:1:41||0|2|34598|L|,T_L2,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|8:1:41||0|2|34610|F|T_L3
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|8:1:41||0|2|34610|L|,T_L3,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|9:1:41||0|2|34622|F|T_L4
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|9:1:41||0|2|34622|L|,T_L4,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|11:1:41||0|2|34634|F|T_J1
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|11:1:41||0|2|34634|L|,T_J1,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|12:1:41||0|2|34646|F|T_J2
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|12:1:41||0|2|34646|L|,T_J2,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|13:1:41||0|2|34658|F|T_J3
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|13:1:41||0|2|34658|L|,T_J3,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|14:1:41||0|2|34670|F|T_J4
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|14:1:41||0|2|34670|L|,T_J4,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|16:1:42||0|2|34682|F|T_T1
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|16:1:42||0|2|34682|L|,T_T1,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|17:1:42||0|2|34694|F|T_T2
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|17:1:42||0|2|34694|L|,T_T2,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|18:1:42||0|2|34706|F|T_T3
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|18:1:42||0|2|34706|L|,T_T3,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|19:1:42||0|2|34718|F|T_T4
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|19:1:42||0|2|34718|L|,T_T4,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|21:1:42||0|2|34730|F|T_I1
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|21:1:42||0|2|34730|L|,T_I1,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|22:1:42||0|2|34742|F|T_I2
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|22:1:42||0|2|34742|L|,T_I2,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|24:1:42||0|2|34754|F|T_Z1
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|24:1:42||0|2|34754|L|,T_Z1,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|25:1:42||0|2|34766|F|T_Z2
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|25:1:42||0|2|34766|L|,T_Z2,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|27:1:42||0|2|34778|F|T_S1
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|27:1:42||0|2|34778|L|,T_S1,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|28:1:42||0|2|34790|F|T_S2
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|28:1:42||0|2|34790|L|,T_S2,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|30||0|2|34802|F|row_coords
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\fichas.asm|30||0|2|34802|L|,row_coords,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|1||0|2|34825|F|Tetro_3D
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|1||0|2|34825|L|,Tetro_3D,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|3||0|2|34833|F|Tetris_3D
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|3||0|2|34833|L|,Tetris_3D,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|4||0|2|34833|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|5||0|2|34835|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|7||0|2|34839|F|T3D3
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|7||0|2|34839|L|,T3D3,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|9||0|2|34839|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|11||0|2|34843|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|12||0|2|34845|F|T3D2
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|12||0|2|34845|L|,T3D2,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|13||0|2|34845|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|14||0|2|34847|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|15||0|2|34850|F|T3D1
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|15||0|2|34850|L|,T3D1,,+used
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|16||0|2|34850|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|17||0|2|34853|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|18||0|2|34855|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|20||0|2|34857|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|21||0|2|34858|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|22||0|2|34860|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|24||0|2|34862|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|25||0|2|34863|T|
+C:\Users\PC GAMING\Documents\Trabajos Uni\2º\Arquitectura\Tetris\Tetris_3D.asm|27||0|2|34865|T|

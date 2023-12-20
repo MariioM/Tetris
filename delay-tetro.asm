@@ -1,6 +1,6 @@
 TETRODELAY:
 ;------------------------------------------
-    LD HL, $dddd
+    LD HL, 15000
 delayloop:
     DEC HL
     LD A, H

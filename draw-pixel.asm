@@ -25,10 +25,10 @@ DRAWPIXEL:
     ADD HL, DE ; HL = Y*32 + X + $5800
     POP BC
     POP AF
-    or a
-    jr Z, Draw-pixel-saltar
+    CP 0
+    JR Z, tetroExistDraw
     LD (HL), A
-Draw-pixel-saltar:
+tetroExistDraw:
     POP DE
     POP AF
     RET

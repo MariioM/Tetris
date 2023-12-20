@@ -7,7 +7,7 @@ TETROMOVE:
     JR Z, move_left    ; Han pulsado J -> Mover izquierda
     BIT 2,A
     JR Z, move_right  ; Han pulsado K -> Mover derecha
-    JR no_tecla_move     ; No hay tecla pulsada
+    ;JR no_tecla_move     ; No hay tecla pulsada
 
 move_right:
     LD A, (Middle) 

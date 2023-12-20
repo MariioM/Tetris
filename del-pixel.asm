@@ -26,7 +26,10 @@ DELPIXEL:
     ADD HL, DE ; HL = Y*32 + X + $5800
     POP BC
     POP AF
+    CP 0
+    JR Z, tetroExist
     LD (HL), 0
+tetroExist:
     POP DE
     POP AF
     RET

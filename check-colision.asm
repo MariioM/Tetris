@@ -19,15 +19,22 @@ cols:
     INC A
     LD (IXCounter), A
     LD A, (IX)
-    LD (PosibleColor), A
+    LD (NewColor), A
     POP BC
     LD C, D
     CALL comprobarpunto
+    LD (OldColor), A
+    LD A, B
+    LD (GameXPosible), A 
+    LD A, C
+    LD (GameYPosible), A
+    LD A, (OldColor)
     CP 0
     JR Z, no_hay_color
 puede_haber_color:
-    LD A, (PosibleColor)
+    LD A, (NewColor)
     CP 0
+    JR NZ, hay_color
     JR Z, no_hay_color
 hay_color:
     LD A, 100
