@@ -1,6 +1,6 @@
 TETRODELAY:
 ;------------------------------------------
-    LD HL, 15000 ; Se impone un tiempo de espera entre movimiento y movimiento
+    LD HL, 5000 ; Se impone un tiempo de espera entre movimiento y movimiento
 delayloop:
     DEC HL
     LD A, H

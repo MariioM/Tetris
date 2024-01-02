@@ -8,6 +8,8 @@ gameInit:
     CALL MAINGAME ;Se llama al juego
 gameEnd:
     CALL ENDSCREEN ;Se llama a la pantalla final
+    CP 104 ;Se comprueba si se quiere jugar de nuevo
+    JR NZ , gameStart
 
 mainEnd: JR mainEnd ;Se queda en un bucle infinito
 ;-------------------------------------------------------------------
