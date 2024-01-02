@@ -46,4 +46,4 @@ Soltar_Tecla_Final:           ; Rutina de espera hasta que se suelta la tecla
 
 ;---------------------------------------------------------
 GameOverText: db "GAME OVER", 0 ; Texto de fin de partida
-ContinueText: db "Desea jugar de nuevo?", 0 ; Pregunta continue
+ContinueText: db "Desea jugar de nuevo? (S/N)", 0 ; Pregunta continue

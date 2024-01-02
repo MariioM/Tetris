@@ -44,7 +44,7 @@ nexttetro:
     CALL DRAWTETRO ;Se llama a la funcion que dibuja el tetromino
     CALL LASTPOSITION ;Se llama a la funcion que devuelve IX
     CALL RETURNIY ;Se llama a la funcion que devuelve IY
-    RET ;Se sale de la rutina hacia el main (Tetro posicionado)
+    RET ;Se sale de la rutina hacia el game (Tetro posicionado)
 right_wall:
     DEC A ;Si se colisiona con la pared derecha, mueve el tetro hacia la izquierda
     LD (Middle), A ;Realiza el cambio de posición
