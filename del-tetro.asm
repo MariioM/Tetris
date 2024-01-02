@@ -1,32 +1,32 @@
 TETRODEL:
 ;------------------------------------------------------
-    LD A, (IX)
-    LD D, A
+    LD A, (IX) ; Se carga en A el tetrominó actual
+    LD D, A ; Se guarda en D el tetrominó actual
     INC IX
     LD A, (IXCounter)
     INC A
     LD (IXCounter), A
     LD A, (IX)
-    LD E, A
-    LD B, D
+    LD E, A ;Se guardan las columnas en E
+    LD B, D ;Se guardan las filas en B
 rowdel:
-    PUSH BC
-    LD B, E
+    PUSH BC ;Se guarda en la pila el valor de B
+    LD B, E ;Se cargan las columnas en B
 columndel:
     LD D, B
-    INC IX
-    LD A, (IXCounter)
+    INC IX ;Se incrementa IX para que apunte a la siguiente posición
+    LD A, (IXCounter) 
     INC A
     LD (IXCounter), A
     LD A, (IX)
     POP BC
-    LD C, D
-    CALL DELPIXEL
+    LD C, D ;Se carga la posición del pixel a borrar en C
+    CALL DELPIXEL ;Se borra el pixel en las coordenadas indicadas
     PUSH BC
     LD B, D
-    DJNZ columndel
-    POP BC
-    DJNZ rowdel
+    DJNZ columndel ;Se repite el bucle hasta que se borren todas las columnas
+    POP BC ;Se recupera el valor de B
+    DJNZ rowdel ;Se repite el bucle hasta que se borren todas las filas
     
     RET
 ;-----------------------------------------

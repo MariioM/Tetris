@@ -13,3 +13,4 @@ OldColor: DB 0
 GameXPosible: DB 0
 GameYPosible: DB 0
 Middle: DB 14
+FilaCompleta: DB 0

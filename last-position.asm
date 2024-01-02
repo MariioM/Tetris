@@ -1,6 +1,6 @@
 LASTPOSITION:
 ;---------------------------  
-    LD A, (IXCounter)
+    LD A, (IXCounter) ;Se carga en A el valor de IXCounter
     LD B, A
 return:
     DEC IX

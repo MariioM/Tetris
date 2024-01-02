@@ -20,4 +20,5 @@ fin: JR fin
     INCLUDE check-colision.asm
     INCLUDE turn-tetro.asm
     INCLUDE tetro-move.asm
+    INCLUDE del-row.asm
     

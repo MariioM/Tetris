@@ -7,22 +7,27 @@ TETROMOVE:
     JR Z, move_left    ; Han pulsado J -> Mover izquierda
     BIT 2,A
     JR Z, move_right  ; Han pulsado K -> Mover derecha
-    ;JR no_tecla_move     ; No hay tecla pulsada
+    BIT 0,A          
+    JR Z, move_down ; Han pulsado ENTER -> Mover abajo
+    JR no_tecla_move     ; No hay tecla pulsada
 
 move_right:
     LD A, (Middle) 
     INC A
     LD (Middle), A
-    JR SoltarTeclaMv     ; Esperar q que suelten la tecla
+    JR SoltarTeclaMv     ; Esperar que suelten la tecla
     RET
 
 move_left:
     LD A, (Middle) 
     DEC A
     LD (Middle), A
-    JR SoltarTeclaMv     ; Esperar q que suelten la tecla
+    JR SoltarTeclaMv     ; Esperar que suelten la tecla
     RET
 
+move_down:
+    INC IY ;Se baja la fila
+    RET ;Se sale de la rutina
 
 SoltarTeclaMv:           ; Rutina de espera hasta que se suelta la tecla
     IN A,(C)            ; Leer del puerto que se ha definido en Lee_Tecla

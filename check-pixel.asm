@@ -14,7 +14,7 @@ comprobarpunto:
     ADD HL, HL
     ADD HL, HL
     ADD HL, HL; HL = HL *32
-    LD A, (Middle)
+    LD A, (Middle) ;Guarda en A la posición del tetro respecto al centro
     ADD C
     LD C, A
     LD E, C

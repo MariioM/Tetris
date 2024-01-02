@@ -13,13 +13,14 @@ turn_right:
     LD L, (IX + 10)
     LD H, (IX + 11)  
     LD IX, HL  
-    JR SoltarTecla     ; Esperar q que suelten la tecla
-    
+    JR SoltarTecla     ; Esperar que suelten la tecla
+    RET
+
 turn_left:
     LD L, (IX + 8)
     LD H, (IX + 9) 
     LD IX, HL
-    JR SoltarTecla     ; Esperar q que suelten la tecla
+    JR SoltarTecla     ; Esperar que suelten la tecla
     RET
 
 
