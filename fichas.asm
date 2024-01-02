@@ -1,5 +1,6 @@
-TETROMINOS:                            ;
-;---------------------------------------
+TETROMINOS:                                                       ;
+;Rutina que contiene la forma de los tetrominos, y sus rotaciones ;
+;-----------------------------------------------------------------;
 ;Tetromino O
 T_O: DB 2, 2, 6*8, 6*8, 6*8, 6*8, 0, 0: DW T_O, T_O
 ;Tetromino L

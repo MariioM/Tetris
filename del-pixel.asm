@@ -1,4 +1,5 @@
 DELPIXEL:
+;Borra un pixel
 ;--------------------------------------------------
     PUSH AF
     PUSH DE

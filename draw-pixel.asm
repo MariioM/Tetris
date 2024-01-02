@@ -3,6 +3,7 @@ DRAWPIXEL:
     PUSH DE ;Se guardan todos los registros
     PUSH AF
     PUSH BC
+;Rutina encargada de dibujar un pixel en la pantalla
 ;------------------------------------------------------
     LD A, B ;Se carga la posicion en A
     ADD (IY) ;Se suma la posicion con la posicion del tetro

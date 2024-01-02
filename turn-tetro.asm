@@ -1,4 +1,5 @@
 TURNTETRO:
+;Rutina encargada de controlar la rotación de la pieza
 ;--------------------------------------------------------------------
         
     LD BC,$FBFE        ; Escanear línea  T,R,E,W,Q

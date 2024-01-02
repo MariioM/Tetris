@@ -1,7 +1,8 @@
-CREATEBOARD:                                 ;
+CREATEBOARD:                              ;
     CALL CLEARSCR                         ;
 ANCHO EQU 14                              ;
 LARGO EQU 22                              ;
+;Dibuja el marco del tablero de juego     ;
 ;------------------------------------------
     CALL Tetris_3D
     LD A, 32 ; Se carga en A el ancho de la pantalla

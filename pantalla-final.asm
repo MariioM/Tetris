@@ -1,5 +1,6 @@
 ENDSCREEN:
     CALL CLEARSCR
+;Muestra la pantalla de game over
 ;--------------------------------------------------
 ;Imprime el GAME OVER
     LD A,2+$80 ; Se da formato de color al texto

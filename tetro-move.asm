@@ -1,5 +1,6 @@
 TETROMOVE:
-;----------------------------------------
+;Rutina encargada de controlar el movimiento de la pieza
+;--------------------------------------------------------
         
     LD BC,$BFFE       ; Escanear línea  H,J,K,L,ENTER
     IN A,(C)

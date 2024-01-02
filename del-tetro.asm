@@ -1,4 +1,5 @@
 TETRODEL:
+;Borra la pieza actual del tablero. Para ello, llama a DELPIXEL con las coordenadas de cada uno de los píxeles que forman la pieza.
 ;------------------------------------------------------
     LD A, (IX) ; Se carga en A el tetrominó actual
     LD D, A ; Se guarda en D el tetrominó actual

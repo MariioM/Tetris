@@ -1,4 +1,7 @@
 RANDOMTETRO:
+;Rutina encargada de cargar un tetrominó aleatorio 
+;-------------------------------------------------
+
     LD A, R ;Se carga en A un número aleatorio entre 0 y 255
     AND 31 ;Se hace un AND con 31 para que el número esté entre 0 y 31
     CP 19 ;Se compara con 19, si es menor

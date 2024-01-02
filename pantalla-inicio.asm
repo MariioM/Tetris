@@ -2,6 +2,7 @@
 STARTSCREEN:                                   ;
     CALL CLEARSCR                              ;
     CALL startInit                             ;
+;Muestra la pantalla de inicio del juego       ;
 ;-----------------------------------------------
 startInit:
 ;Imprimir título

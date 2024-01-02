@@ -1,4 +1,5 @@
 comprobarpunto:
+;Rutina que comprueba pixel a a pixel la colisión con algún elemento del tablero
 ;-------------------------------------------------------
     PUSH DE
     PUSH AF

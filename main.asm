@@ -1,7 +1,8 @@
-    DEVICE ZXSPECTRUM48 ;Especificacion para el emulador           ;
-    ORG $8000 ;Programa empieza en $8000                           ;
-    LD SP, 0 ;Carga del stack en 0                                 ;
-;-------------------------------------------------------------------
+    DEVICE ZXSPECTRUM48 ;Especificacion para el emulador                    ;
+    ORG $8000 ;Programa empieza en $8000                                    ;
+    LD SP, 0 ;Carga del stack en 0                                          ;
+;Rutina principal del juego encargada de llamar a las rutinas principales   ;                    
+;---------------------------------------------------------------------------;
 gameStart:
     CALL STARTSCREEN ;Se llama a la pantalla de inicio
 gameInit:

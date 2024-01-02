@@ -1,4 +1,6 @@
 DRAWTETRO: 
+;Rutina encargada de dibujar una pieza en la pantalla.
+;Para ello utiliza la rutina DRAWPIXEL, que se encarga de dibujar pixel a pixel el tetrominó.
 ;---------------------------------------------
     LD A, (IX)  ; Se carga el valor de la pieza
     LD D, A ; Se guarda en D

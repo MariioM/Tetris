@@ -1,5 +1,6 @@
 gamestatusstruct:
-;--------------------
+;Rutina encargada de almacenar variables de estado del juego
+;-----------------------------------------------------------
 
 GameX: DB 0
 GameY: DB 0

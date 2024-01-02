@@ -1,6 +1,7 @@
-MAINGAME:                                 ;
-    CALL CLEARSCR  ;Limpia la pantalla    ;
-;------------------------------------------
+MAINGAME:                                           ;
+    CALL CLEARSCR  ;Limpia la pantalla              ;
+;Rutina encargada de manejar el flujo del juego     ;
+;----------------------------------------------------
     CALL CREATEBOARD ; Crea el tablero
 gameflow:
     CALL RANDOMTETRO ; Geneta un tetromino aleatorio

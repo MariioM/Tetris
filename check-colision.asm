@@ -1,4 +1,5 @@
 CHECKCOLISION:
+;Rutina que comprueba si un tetrominó colisiona con una pared o con otro tetrominó
 ;--------------------------------------------
     LD A, (IX)
     LD D, A

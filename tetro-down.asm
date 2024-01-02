@@ -1,5 +1,7 @@
 TETRODOWN: 
-;-----------------------------------------
+;Rutina encargada de bajar el tetromino.
+;Contiene también las funcionalidades de mover/rotar el tetromino y de comprobar si hay colisión.
+;--------------------------------------------------------------------------------------------------
     LD IY, row_coords ;Se carga la direccion de memoria de la fila
     CALL CHECKCOLISION ;Se llama a la funcion que revisa si hay colision
     CP 100 ;Se comprueba la condición de derrota
